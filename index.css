@@ -1,0 +1,254 @@
+.container{
+  width: 1440px;
+  height:4699px;}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #35414B;
+}
+.banner{
+  background-image: url(image/bgbanner.png);
+  height: 800px;
+  border: 1px;
+  margin-top: -9px;
+  z-index:-2
+}
+h3{
+  font-family:'Josefin Sans', sans-serif;
+  color: #1D2830;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 60px;
+}
+header{
+    width: 90%;
+    height: 120px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 50px;
+}
+header nav li{
+    text-decoration: none;
+    padding:10px 15px;
+    color: #35414B;
+    font-size: 16px;
+    font-weight: 400;
+    opacity:0.7;
+    line-height: 16px;
+    margin-top: 64px;
+    display: inline;
+}
+header nav li:hover{
+    color: black
+}
+header .login-getfree a{
+  text-decoration: none;
+  color:#35414B;
+  font-size: 16px;
+  font-weight: 400;
+  opacity:0.7;
+  line-height: 16px;
+  margin-top: 64px;
+  padding: 16px 24px 16px 23px;
+}
+header .login-getfree a.active{
+  background-color: #ECE5FF;
+  color:#794CFF;
+  border-radius:px;
+  padding:15px 25px;
+}
+.signup{
+ display:flex;
+}
+.simple{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+  width: 505px;
+  height: 48px;
+  margin-left: 467px;
+}
+.save{
+  border-radius: 100px;
+  width:108px;
+  height: 32px;
+  margin-left: 578px;
+  text-align: center;
+  margin-top: 116px;
+  z-index: 1;
+  background-image: url(image/save.png);
+  color:white
+}
+
+.getacc{
+  width: 209px;
+  height: 32px;
+  border-radius: 0px 100px 100px 0px;
+ 
+  text-align: center;
+  margin-left:-31px;
+  background-image: url(image/get.png);
+  margin-top: 116px;
+}
+h1{
+  color:#35414B;
+  font-family:'Inter', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  width: 766px;
+  height: 144px;
+  margin-left: 337px;
+  margin-top: 24px;
+}
+#text{
+  width: 319px;
+  height: 52px;
+  margin-left: 480px;
+  border-radius: 4px 0px 0px 4px;
+  background-color:  #FFFFFF;
+  border: 1px solid #E1E5EA;
+  margin-top: 24px;
+}
+::placeholder{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #97A5B5;
+  padding: 18px 99px 18px 24px;
+}
+#submit{
+  width: 164px;
+  height: 52px;
+  border-radius: 0px 4px 4px 0px;
+  border: 1px;
+  background-color: #794CFF;
+  color: #FFFFFF;
+  margin-left: -5px;
+}
+.graph{
+  width: 920px;
+  height: 654.29px;
+  margin-left: 260px;
+
+  margin-top:48px;
+}
+.medialogo{
+  display: inline;
+  margin-top: 100.71px;
+}
+.medialogo p {
+  font-family: 'Inter', sans-serif ;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #4E5A65;
+  margin-top: 100.71px;
+}
+.logo{
+  display: flex;
+}
+.gg, .fb, .air, .hub, .slack {
+ margin-right: 132px;
+}
+.gg{
+  margin-top: 24px;
+  margin-left: 250px;
+}
+.air{
+  margin-top:25px;
+}
+.fb{
+  margin-top: 29px;
+}
+.hub{
+  margin-top: 26px;
+}
+.slack{
+  margin-top: 27px;
+}
+.introproduct {
+  background-image: url(image/bgintro.png);
+  width: 1505;
+  height: 640px;
+  margin-top: 835px;
+  z-index: -1;
+  display:flex
+}
+.timeline{
+  width: 657px;
+  height: 518px;
+  margin-left: 165px;
+  border-radius: 4px;
+  margin-top: 61px;
+}
+.advantage{
+  margin-left: 80px;
+}
+article{
+  width: 372px;
+  height: 128px;
+  margin-top:26px;
+  margin-left: 80px;
+}
+h4 article p {
+  font-family: 'Inter', sans-serif;
+  font-size: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4E5A65;
+}
+h4{
+  font-size: 18px;
+}
+.survey{
+  background-image: url(image/borderleft.png);
+  width: 372px;
+  height: 128px;
+  margin-top: 77px;
+  border-radius: 0px 8px 8px 0px;
+  border: 1px;
+
+}
+.line{
+  margin-top: 26px;
+  margin-bottom: 26px
+}
+.functions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section img{
+  width: 64px;
+  height: 64px;
+}
+h5{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight:600;
+  line-height: 18px;
+  color:#35414B;
+  width: 213px;
+  height:18px;
+}
+p.feature{
+  font-family: 'Inter', sans-serif;
+  width: 306px;
+  height: 48px;
+  font-weight:400px;
+  font-size: 16px;
+  line-height: 24px;
+  color:#4E5A65
+}
+h2{
+  font-family:'Inter', sans-serif;
+font-weight: 600px;
+font-size:40px;
+line-height:48px; }
