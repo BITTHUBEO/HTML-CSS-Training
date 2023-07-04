@@ -1,6 +1,8 @@
 .container{
   width: 1440px;
-  height:4699px;}
+  height:4699px;
+  font-family:'Inter', sans-serif ;
+}
 
 body{
     font-family: 'Inter', sans-serif;
@@ -191,7 +193,7 @@ h1{
 .advantage{
   margin-left: 80px;
 }
-article{
+.ad-feature, .survey-feature{
   width: 372px;
   height: 128px;
   margin-top:26px;
@@ -207,14 +209,13 @@ h4 article p {
 h4{
   font-size: 18px;
 }
-.survey{
-  background-image: url(image/borderleft.png);
+.survey-feature{
+  background-color: #f6f3fc;
+  border-left: 8px solid #794CFF;
   width: 372px;
   height: 128px;
   margin-top: 77px;
   border-radius: 0px 8px 8px 0px;
-  border: 1px;
-
 }
 .line{
   margin-top: 26px;
@@ -252,3 +253,193 @@ h2{
 font-weight: 600px;
 font-size:40px;
 line-height:48px; }
+.functions{
+  display: flex;
+  flex-wrap: wrap;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+
+}
+ h2 {
+margin-left: 501px;
+}
+.row1, .row2{
+  display: flex;
+}
+.row2{
+  margin-top: 80px;
+}
+.feature{
+  margin-right: 120px;
+}
+.feature p{
+  color: #4E5A65;
+
+}
+ .charts, .chart-content h2, .aboutus-content h2, .functions h2, .install-section {
+  margin-top: 100px;
+}
+.charts h2, .charts p, button, .row, .install-section {
+  margin-left: 165px;
+ }
+
+.charts{
+  background-image: url(image/bgcharts.png);
+  width: 1505px;
+  height: 540px;
+  display: flex;
+}
+.charts h2{
+  width: 341px;
+  height: 96px;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+button{
+  width: 164px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #796EFF;
+  color:#FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+}
+.charts img{
+  margin-top: 67px;
+  margin-left: 90px;
+}
+
+.aboutus-content h2{
+  text-align: center;
+  width: 394px;
+  height: 96px;
+}
+.aboutus-content p {
+  width: 543px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 448px;
+  margin-top: 48px;
+}
+.customers-feedbacks{
+  margin-left:260px ;
+  display: flex;
+}
+.customer-pro{
+  display: flex;
+  margin-right: 145px;
+  margin-top: 28px;
+}
+.name-job{
+  margin-left: 16px;
+  margin-top: -9px;
+}
+.name, .job{
+   font-size: 16px;
+  line-height: 16px;
+  color: #4E5A65;
+
+}
+.name{
+  font-weight: 600;
+  
+}
+.job{
+  margin-top: -8px;
+  font-weight: 400;
+}
+.customer-ava{
+  width: 48px;
+  height: 48px;
+}
+.install-section{
+  background-image: url(image/install-section.png);
+  width: 1110px;
+  height: 224px;
+  border-radius: 16px;
+  display: flex;
+}
+h3 {
+  font-family: 'Inter',sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #fff;
+  margin-top: 64px;
+  margin-left: 80px;
+}
+.install-app{
+  margin-left: 143px;
+  margin-top: 85px;
+}
+.ggplay{
+  margin-right: 24px;
+}
+footer{
+  width: 1505px;
+  height: 417px;
+  background-color: #1D2830;
+  margin-top: 100px;
+}
+.column{
+  display: flex;
+  margin-left: 165px;
+}
+.column1 , .column2  , .column3, .column4 {
+  margin-top: 80px;
+  margin-right: 180px
+}
+.column1 ul, .column2 ul , .column3 ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.column1 ul li , .column2 ul li , .column3 ul li {
+  padding-bottom: 24px;
+  width: 128px;
+  height: 16px;
+}
+.column1 ul li a, .column2 ul li a, .column3 ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+
+}
+h6{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  margin-bottom:24px;
+}
+.footer-ggplay{
+  margin-bottom: 16px;
+}
+.copy-right{
+  display: flex;
+}
+.copy-right p{
+  margin-left: 165px;
+  margin-top: 33px;
+  color: #D9DBE1;
+
+}
+.social-icon{
+  margin-left: 355px;
+}
+.icon{
+ padding: 24px 24px 24px 0;
+}
