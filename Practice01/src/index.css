@@ -5,6 +5,8 @@
   width: 1440px;
   height:4699px;
   font-family:'Inter', sans-serif ;
+  margin: auto;
+  position: relative;
 }
 
 body{
@@ -18,39 +20,49 @@ body{
   margin-top: -9px;
   z-index:-2
 }
-h3{
-  font-family:'Josefin Sans', sans-serif;
-  color: #1D2830;
-  font-size: 24px;
-  line-height: 24px;
-  margin-top: 60px;
-}
 header{
-    width: 90%;
-    height: 120px;
     display:flex;
-    justify-content: space-between;
     align-items: center;
-    padding:0 50px;
 }
-header nav li{
+.logo{
+  margin-top: 60px;
+  margin-left: 165px;
+}
+.header_navlist li{
     text-decoration: none;
-    padding:10px 15px;
     color: #35414B;
     font-size: 16px;
     font-weight: 400;
     opacity:0.7;
     line-height: 16px;
-    margin-top: 64px;
     display: inline;
 }
-header nav{
-  margin-left: 233px;
+.logo{
+  color: #1D2830;
+font-size: 24px;
+font-family: Josefin Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -1.44px;
+width: 92px;
+height: 24px;
+margin-top: 60px;
+margin-left: 165px;
 }
-header nav li:hover{
+nav li:hover{
     color: black
 }
-header .login-getfree a{
+.header_nav{
+  display: flex;
+  margin-top: 38px;
+  margin-left: 195px;
+}
+.header__login-getfree{
+  margin-top: 38px;
+  margin-left: 70px;
+}
+.header__login-getfree a{
   text-decoration: none;
   color:#35414B;
   font-size: 16px;
@@ -60,18 +72,29 @@ header .login-getfree a{
   margin-top: 64px;
   padding: 16px 24px 16px 23px;
 }
-header .login-getfree a.active{
+ a.active{
   background-color: #ECE5FF;
   color:#794CFF;
-  border-radius:px;
+  color: #794CFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
   padding:15px 25px;
+
 }
-.signup{
+.active{
+  width: 169px;
+  height: 48px;
+  border-radius:4px;
+}
+.banner__signup{
  display:flex;
  align-items: center;
 
 }
-.simple{
+.banner__simpletext{
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -82,32 +105,32 @@ header .login-getfree a.active{
   height: 48px;
   margin-left: 467px;
 }
-.save{
+.banner__save{
   border-radius: 100px;
   width:108px;
   height: 32px;
   margin-left: 578px;
   text-align: center;
-  margin-top: 116px;
+  margin-top: 90px;
   z-index: 1;
   background-color: #81C43B;
   color:white;
   align-items: center;
 }
 
-.save p, .getacc p{
+.banner__save p, .banner__getacc p{
   margin-top: 8px;
   margin-left: 8px;
 }
 
-.getacc{
+.banner__getacc{
   width: 209px;
   height: 32px;
   border-radius: 0px 100px 100px 0px;
   background-color: #F2F9EB;
   text-align: center;
   margin-left:-31px;
-  margin-top: 116px;
+  margin-top: 90px;
 }
 h1{
   color:#35414B;
@@ -118,8 +141,7 @@ h1{
   line-height: 72px;
   width: 766px;
   height: 144px;
-  margin-left: 337px;
-  margin-top: 24px;
+  margin: 24px 0 24px 337px;
 }
 #text{
   width: 319px;
