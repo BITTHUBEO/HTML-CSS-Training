@@ -62,6 +62,8 @@ header .login-getfree a.active{
 }
 .signup{
  display:flex;
+ align-items: center;
+ 
 }
 .simple{
   font-family: 'Inter', sans-serif;
@@ -82,15 +84,21 @@ header .login-getfree a.active{
   text-align: center;
   margin-top: 116px;
   z-index: 1;
-  background-image: url(image/save.png);
-  color:white
+  background-color: #81C43B;
+  color:white;
+  align-items: center;
+}
+
+.save p, .getacc p{
+  margin-top: 8px;
+  margin-left: 8px;
 }
 
 .getacc{
   width: 209px;
   height: 32px;
   border-radius: 0px 100px 100px 0px;
- 
+  background-color: #F2F9EB;
   text-align: center;
   margin-left:-31px;
   background-image: url(image/get.png);
@@ -193,11 +201,22 @@ h1{
 .advantage{
   margin-left: 80px;
 }
-.ad-feature, .survey-feature{
-  width: 372px;
-  height: 128px;
-  margin-top:26px;
-  margin-left: 80px;
+.ad-feature p, .survey-feature p{
+  width: 308px;
+  margin-top: -10px;
+}
+.ad-feature p,.ad-feature h4 {
+  margin-left: 112px;
+}
+.ad-feature h4, .survey-feature h4{
+  margin-top: 26px;
+}
+.survey-feature h4, .survey-feature p{
+  margin-left: 24px;
+  
+}
+.text{
+  transform: translateY(35%);
 }
 h4 article p {
   font-family: 'Inter', sans-serif;
@@ -205,6 +224,7 @@ h4 article p {
   font-size: 16px;
   line-height: 24px;
   color: #4E5A65;
+  
 }
 h4{
   font-size: 18px;
@@ -216,10 +236,11 @@ h4{
   height: 128px;
   margin-top: 77px;
   border-radius: 0px 8px 8px 0px;
+  margin-left: 80px;
 }
 .line{
   margin-top: 26px;
-  margin-bottom: 26px
+  margin-left: 80px;
 }
 .functions {
   display: flex;
