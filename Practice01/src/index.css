@@ -219,8 +219,6 @@ h1 {
 }
 
 .graph {
-  width: 920px;
-  height: 654.29px;
   margin-left: 222px;
   margin-top: 13px;
 }
@@ -231,7 +229,7 @@ h1 {
   line-height: 16px;
   text-align: center;
   color: var(--River-Bed);
-  margin-top: 136.71px;
+  margin-top: 150.71px;
   font-weight: 400;
   letter-spacing: 0em;
 }
@@ -301,15 +299,13 @@ h1 {
 }
 
 .timeline {
-  width: 657px;
-  height: 518px;
   margin-left: 165px;
   border-radius: 4px;
   margin-top: 61px;
 }
 
 .advantage {
-  margin-left: 80px;
+  margin-left: 245px;
 }
 
 .survey-feature {
@@ -516,8 +512,6 @@ button {
 }
 
 .customer-ava {
-  width: 48px;
-  height: 48px;
   margin-left: 1px;
   margin-top: -4px;
 }
@@ -528,7 +522,7 @@ button {
   height: 224px;
   border-radius: 16px;
   display: flex;
-  margin-top: 98px;
+  margin-top: 94px;
 }
 
 h3 {
