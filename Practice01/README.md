@@ -24,10 +24,10 @@
 
 - Timeline:
   - Estimate: 6 days
-  - Actual: 6 days.
+  - Actual: 8 days.
   - Calendar:
     - Start: 2023/06/30
-    - End: 2023/07/07
+    - End: 2023/07/10
 
 ## Getting started
 
@@ -39,9 +39,13 @@
 - Step 3: Move it to branch feature/practice1.
   - `$ git checkout feature/practice1.
 - Step 4: Move to folder Practice01.
-  - `$ cd ./practice/practice-01`.
+  - `$ cd ./Practice01`.
+- Step 5:
+  - Open terminal > `npm i`.
+- Step 6:
+  - Run `npm start`.
 - Step 7:
-  - Open  in browser.
+  - Open http://localhost:1234/ in browser.
 
 ## Author
 
