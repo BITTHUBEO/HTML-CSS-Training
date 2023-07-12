@@ -6,7 +6,7 @@
   - Build a website using HTML5, CSS3.
 - Design: [link](<https://www.figma.com/file/EU7YtWp4zSAzwJ67VVNv3k/Web%2FMobile-%E2%80%94-Template-Website-(Community)?node-id=3%3A17&mode=dev>)
 - Plan: [practice-one](https://docs.google.com/document/d/1oUYOh4dNlgiXUb9zFs2pPquenpI5km3scWYhnjrYl7I/edit)
-- Deploy: [link]()
+- Deploy: [link](https://html-css-practice1-bitthubeo.vercel.app/)
 
 ## Requirements
 
@@ -27,7 +27,7 @@
   - Actual: 8 days.
   - Calendar:
     - Start: 2023/06/30
-    - End: 2023/07/10
+    - End: 2023/07/14
 
 ## Getting started
 
@@ -35,7 +35,7 @@
   - With HTTPS:
     - `$ git clone https://github.com/BITTHUBEO/HTML-CSS-Tranining/tree/feature/practice1 .
 - Step 2: Move to folder which just cloned in your computer.
-  - `cd ./internship-thu-thi`.
+  - `cd ./html-css-training`.
 - Step 3: Move it to branch feature/practice1.
   - `$ git checkout feature/practice1.
 - Step 4: Move to folder Practice01.
