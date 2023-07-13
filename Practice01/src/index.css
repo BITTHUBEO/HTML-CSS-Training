@@ -550,7 +550,7 @@ button {
     gap: 160px;
 }
 
-.baseline {
+.baseline img {
     width: 100%;
     height: 100%;
     margin-left: -20px;
@@ -767,7 +767,8 @@ h6 {
 
 .graph,
 .banner__logo img,
-.timeline img {
+.timeline img,
+.customer-ava img {
     width: 100%;
     height: 100%;
 }
