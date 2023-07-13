@@ -4,14 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Practice1</title>
-        <link rel="stylesheet" href="../src/index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../src/style/index.css">
     </head>
     <body>
             <div class="banner">
-                <header>
+                <header class="container">
                     <div class="header__logo">
                         <img src="./assets/image/team.flow.png" alt="logo">
                     </div>
@@ -50,30 +47,29 @@
                     </div>
                     <div class="banner__media-logo">
                         <p class="banner__logo-content">TRUSTED BY OVER <b>10.000+</b> WORLD'S BEST TEAMS</p>
-                        <br>
                         <div class="banner__logo">
                             <div style="width: 80px; height: 26.11px;">
-                                <img class="gg" src="assets/image/google.png" alt="google">
+                                <img class="gg" src="assets/image/google.svg" alt="google">
                             </div>
                             <div style="width: 80px; height:24.96px" >
-                                <img class="air" src="../src/assets/image/airbnb.png" alt="airbnb">
+                                <img class="air" src="../src/assets/image/airbnb.svg" alt="airbnb">
                             </div>
                             <div style="width:77.17px; height: 15.82px" >
-                                <img class="fb" src="./assets/image/fb.png" alt ="facebook">
+                                <img class="fb" src="./assets/image/fb.svg" alt ="facebook">
                             </div>
                             <div style="width: 80px;height: 23.3px;">
-                                <img class="hub" src="./assets/image/hubspot.png" alt="hub">
+                                <img class="hub" src="./assets/image/hub.svg" alt="hub">
                             </div>
                             <div style="width: 80px; height: 20.24px;">
-                                <img class="slack" src="./assets/image/slack.png" alt="slack">
+                                <img class="slack" src="./assets/image/google.svg" alt="slack">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-                <div class="content-area">
                     <section class="product">
-                        <div style="width: 657px; height: 518px">
+                        <div class="container product">
+                            <div style="width: 657px; height: 518px">
                             <img class="timeline" src="./assets/image/timeline.png" alt="timeline">
                         </div>
                         <div class="product__content">
@@ -98,9 +94,11 @@
                                 <p >Easy-to-read reports and sharable results help managers and teams.</p>
                             </div>
                         </div>
+                        </div>
                     </section>
-                    <section class="functions__container">
-                        <h2 class="functions__headline">Make your work easier</h2>
+                    <section class="functions">
+                        <div class="container functions">
+                             <h2 class="functions__headline">Make your work easier</h2>
                         <div class="feature">
                             <div class="feature__descripstion">
                                 <img src="./assets/image/report.png" alt="Reports">
@@ -133,16 +131,18 @@
                                 <p>Access manager tips, activities and best practices from our team of experts.</p>
                             </div>
                         </div>
+                        </div> 
                     </section>
                     <section class="charts">
-                        <div class="chart__content">
+                            <div class="chart__content">
                             <h2> We work how you work everyday</h2>
                             <p style="width: 413px;height: 72px;">Since the easiest things to use actually get used, we adapts to the way your team works – not the other way around.</p>
                             <button>Get started free</button>
                         </div>
                         <div class="chart-image">
                             <img src="assets/image/charts.png" alt="Charts">
-                        </div>
+                        </div>                        
+ 
                     </section>
                     <section class="about-us">
                         <div class="about-us__content">
@@ -201,7 +201,6 @@
                             </div>
                         </div>
                     </section>
-                </div>
                 <footer>
                     <div class="footer__content">
                         <div class="company">
@@ -238,14 +237,13 @@
                         </div>
                     </div>
                     <div class="line-footer"></div>
-                    <br>
                     <div class="footer__copy-right">
                         <p class="copy-right" style="width: 540px;height: 14px;">© 2020 - All rights reserved</p>
                         <div class="social-icon">
-                            <img class="icon" src="assets/image/ins.png" alt="icon">
-                            <img class="icon" src="assets/image/basketball.png" alt="icon">
-                            <img class="icon" src="assets/image/twitter.png" alt="icon">
-                            <img class="icon" src="assets/image/youtube.png" alt="icon">
+                            <img class="icon" src="assets/image/ins.svg" alt="icon">
+                            <img class="icon" src="assets/image/basketball.svg" alt="icon">
+                            <img class="icon" src="assets/image/twitter.svg" alt="icon">
+                            <img class="icon" src="assets/image/youtube.svg" alt="icon">
                         </div>
                     </div>
                 </footer>
