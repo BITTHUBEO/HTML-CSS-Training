@@ -166,14 +166,14 @@ a.active {
     gap: 23px
 }
 
-h1 {
+.banner__heading {
     color: var(--Limed-Spruce);
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 66px;
     line-height: 72px;
-    width: 772px;
+    width: 830px;
     height: 144px;
     margin-left: -1px;
 }
@@ -605,6 +605,11 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.install-section-heading {
+    width: 423px; 
+    height: 96px;
 }
 
 h3 {
