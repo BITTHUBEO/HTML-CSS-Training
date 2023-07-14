@@ -3,15 +3,9 @@
 @import url("./abstracts/varibles.css");
 
 
-
 body {
     font-family: 'Inter', sans-serif;
     color: var(--Limed-Spruce);
-}
-
-.container {
-    width: 1440px;
-    margin: auto;
 }
 
 .banner {
@@ -20,31 +14,44 @@ body {
     margin-top: -9px;
     background-repeat: no-repeat;
     height: 1485px;
-    margin-top: -9px;
     background-size: 100% 57%;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 125px;
+    justify-content: space-evenly;
+    width: 1440px;
+    margin: auto;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    height: 160px;
-    justify-content: space-evenly;
+    width: 1440px;
+}
+
+.header__nav {
+    margin-right: 22px;
 }
 
 .header__nav-list {
-    margin-left: 27px;
+    margin-left: 50px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
 }
 
 .header__nav-list li {
-    text-decoration: none;
     color: var(--Limed-Spruce);
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
     line-height: 16px;
-    display: inline;
     cursor: pointer;
-    margin: 0px 10px 0px 3px;
+    margin-right: 10px;
+    margin-top: 8px;
 }
 
 .header__logo {
@@ -58,7 +65,7 @@ body {
     width: 92px;
     height: 24px;
     cursor: pointer;
-    margin-right: 30px;
+    margin-left: 25px;
 }
 
 nav li:hover {
@@ -76,7 +83,7 @@ nav li:hover {
     font-weight: 400;
     opacity: 0.7;
     line-height: 16px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .header__login-get-free a.active:hover {
@@ -84,11 +91,11 @@ nav li:hover {
 }
 
 .header__login-get-free a :hover {
-    color: black;
+    color: var(--black);
 }
 
 a.active {
-    background-color: #ECE5FF;
+    background-color: var(--Blue-Chalk);
     color: var(--Violet);
     text-align: center;
     font-size: 16px;
@@ -96,6 +103,7 @@ a.active {
     font-weight: 500;
     line-height: 16px;
     padding: 15px 29px;
+    margin-right: 32px;
 }
 
 .active {
@@ -114,13 +122,13 @@ a.active {
 .banner__discount {
     display: flex;
     justify-content: center;
-    height: 75px;
+    height: 95px;
     width: 100%;
     align-items: flex-end;
 }
 
 .banner__get-acc {
-    width: 209px;
+    width: 197px;
     height: 32px;
     border-radius: 0px 100px 100px 0px;
     background-color: #F2F9EB;
@@ -132,7 +140,7 @@ a.active {
     font-weight: 400;
     line-height: 16px;
     cursor: pointer;
-    margin-left: -20px;
+    margin-left: -12px
 }
 
 .banner__save {
@@ -144,7 +152,7 @@ a.active {
     color: var(--white);
     z-index: 1;
     position: sticky;
-    margin-left: 11px;
+    margin-left: 2px;
 }
 
 .banner__save p,
@@ -177,30 +185,29 @@ a.active {
     line-height: 72px;
     width: 830px;
     height: 144px;
-    margin-left: -1px;
 }
 
 .banner__simple-text {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 25px;
     text-align: center;
     color: var(--River-Bed);
-    width: 505px;
+    width: 508px;
     height: 48px;
-    margin-left: -15px;
+    margin-left: -20px;
 }
 
 .banner__box {
     display: flex;
     justify-content: center;
-    margin: -2px 0px 0px -3px;
+    margin: -2px 0px 0px -12px;
     height: 63px;
 }
 
-#text {
-    width: 319px;
+.text-box {
+    width: 320px;
     height: 48px;
     border-radius: 4px 0px 0px 4px;
     background-color: var(--white);
@@ -216,14 +223,14 @@ a.active {
     padding: 18px 99px 18px 22px;
 }
 
-#submit {
-    width: 164px;
+.submit {
+    width: 166px;
     height: 52px;
     border-radius: 0px 4px 4px 0px;
     border: 1px;
     background-color: var(--Violet);
     color: var(--white);
-    margin-left: -6px;
+    margin-left: -10px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
@@ -232,14 +239,22 @@ a.active {
     text-align: center;
 }
 
-#submit:hover,
+.submit:hover,
 button:hover {
     background-color: #b4aef6;
 }
 
 .graph {
-    margin-left: -5px;
-    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 730.29px;
+    margin-left: -10px;
+}
+
+.graph-img {
+    width: 100%;
+    height: 100%;
 }
 
 .banner__media-logo {
@@ -247,7 +262,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     height: 191px;
-    width: 100%;
+    width: 1440px;
 }
 
 .banner__media-logo p {
@@ -258,7 +273,7 @@ button:hover {
     color: var(--River-Bed);
     font-weight: 400;
     letter-spacing: 0em;
-    margin-top: -10px;
+    margin-left: -10px;
 }
 
 .banner__media-logo b {
@@ -270,39 +285,64 @@ button:hover {
 }
 
 .banner__logo {
+    width: 1342px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 6px;
+    margin-top: 22px;
 }
 
 .gg {
-    margin-left: 75px;
+    width: 80px;
+    height: 26.11px;
+}
+
+.gg img {
+    margin-left: 86px;
 }
 
 .air {
-    margin-left: 35px;
+    width: 80px;
+    height: 24.96px;
+}
+
+.air img {
+    margin-left: 64px;
 }
 
 .fb {
-    margin-left: -6px;
-    margin-top: 5px;
+    width: 77.17px;
+    height: 15.82px
+}
+
+.fb img {
+    margin-left: 37px;
+    margin-top: 4px
 }
 
 .hub {
-    margin-left: -40px;
+    width: 80px;
+    height: 23.3px;
+}
+
+.hub img {
     margin-top: 2px;
+    margin-left: 19px;
 }
 
 .slack {
-    margin-left: -75px;
-    margin-top: 4px;
+    width: 80px;
+    height: 20.24px;
+}
+
+.slack {
+    margin-top: 2px
 }
 
 .gg,
 .air,
 .fb,
 .hub,
-.slack {
+.slack img {
     cursor: pointer;
 }
 
@@ -317,15 +357,15 @@ button:hover {
 .product {
     background-image: url(../assets/image/bgintro.png);
     background-repeat: round;
-    height: 631px;
+    height: 641px;
     display: flex;
-    margin-top: 35px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin: auto;
+    gap: 74px;
 }
 
-.product p {
+.survey-feature p,
+.ad-feature p {
     color: var(--River-Bed);
     font-size: 16px;
     font-style: normal;
@@ -334,8 +374,10 @@ button:hover {
 }
 
 .timeline {
+    width: 657px;
+    height: 518px;
     border-radius: 4px;
-    margin-left: 34px;
+    margin-left: 7px;
 }
 
 .survey-feature {
@@ -344,14 +386,14 @@ button:hover {
     width: 368px;
     height: 128px;
     border-radius: 0px 8px 8px 0px;
-    margin-left: -16px;
 }
 
 .product__content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 27px;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 5px;
 }
 
 .ad-feature p,
@@ -360,11 +402,12 @@ button:hover {
 }
 
 .ad-feature p,
-.ad-feature h4 {
-    margin-left: 16px;
+.ad-feature-title {
+    margin-left: 33px;
+    margin-top: 1px;
 }
 
-.survey-feature h4,
+.survey-feature-title,
 .survey-feature p {
     margin-left: 24px;
 }
@@ -372,7 +415,7 @@ button:hover {
 .survey-feature,
 .ad-feature,
 .feature__descripstion img,
-.feature__descripstion h5,
+.title,
 .feature__descripstion p {
     cursor: pointer;
 }
@@ -381,13 +424,14 @@ button:hover {
     transform: translateY(35%);
 }
 
-h4 {
+.survey-feature-title,
+.ad-feature-title {
     color: #35414B;
-    font-size: 18px;
+    font-size: 18px !important;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
+    font-weight: 600 !important;
+    line-height: 26px !important;
 }
 
 .line {
@@ -400,9 +444,8 @@ h2 {
     font-weight: 600;
     font-size: 40px;
     line-height: 40px;
-    margin-left: -5px;
+    margin-left: px;
     color: var(--Limed-Spruce);
-    text-align: center;
     font-style: normal;
 }
 
@@ -414,10 +457,11 @@ h2 {
     justify-content: space-around;
     width: 1440px;
     margin: auto;
+    margin-bottom: 51px;
 }
 
 .functions__headline {
-    margin-top: 100px;
+    margin-top: 86px;
 }
 
 .feature {
@@ -425,7 +469,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-left: 85px;
-    margin-top: -8px;
 }
 
 .feature__descripstion {
@@ -444,34 +487,35 @@ h2 {
     margin: 6px 0px 0px 4px;
 }
 
-h5 {
+h4 {
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 600;
     line-height: 18px;
     color: var(--Limed-Spruce);
-    margin-top: 22px;
-    margin-left: 1px;
+    margin-top: px;
 }
 
 .charts {
-    margin-top: 52px;
     background-image: url(../assets/image/bgcharts.png);
-    width: 100%;
-    height: 540px;
+    height: 541px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 92px;
 }
 
-.charts img {
-    margin-left: -80px;
+.chart-image {
+    margin-top: 2px;
+    margin-right: 28px;
 }
 
 .chart__content {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-top: 2px;
+    margin-left: 21px;
 }
 
 .chart__content h2 {
@@ -486,6 +530,8 @@ h5 {
 }
 
 .chart__content p {
+    width: 413px;
+    height: 72px;
     line-height: 24px;
     color: var(--River-Bed);
     font-size: 16px;
@@ -529,8 +575,12 @@ button {
 }
 
 .about-us__content h2 {
+    width: 394px;
+    height: 96px;
     line-height: 48px;
-    margin-top: 40px;
+    margin-top: 41px;
+    text-align: center;
+    margin-right: 10px;
 }
 
 .about-us__content p {
@@ -546,24 +596,35 @@ button {
 
 .customers-feedbacks {
     display: flex;
-    height: 100px;
-    justify-content: center;
+    height: 126px;
     gap: 160px;
+    margin-bottom: 62px;
+    margin-left: 10px;
+}
+
+.baseline {
+    width: 264px;
+    height: 4px;
+}
+
+.baseline--visibility-hidden {
+    visibility: hidden;
 }
 
 .baseline img {
     width: 100%;
     height: 100%;
-    margin-left: -20px;
-    margin-top: -30px;
+}
+
+.customer-ava {
+    width: 48px;
+    height: 48px;
 }
 
 .customer-pro {
     display: flex;
     cursor: pointer;
-    margin-left: -60px;
     flex-direction: column;
-    margin-top: -30px;
     justify-content: space-around;
     align-items: center;
 }
@@ -571,8 +632,6 @@ button {
 .customer-infor {
     display: flex;
     align-items: center;
-    margin-top: -40px;
-    margin-left: 50px;
 }
 
 .name-job {
@@ -600,17 +659,13 @@ button {
 
 .install-section {
     background-image: url(../assets/image/install-section.png);
-    width: 1110px;
+    width: 1111px;
     height: 224px;
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.install-section-headline {
-    width: 423px; 
-    height: 96px;
+    margin-right: 6px;
 }
 
 h3 {
@@ -619,18 +674,20 @@ h3 {
     font-size: 32px;
     line-height: 48px;
     color: var(--white);
-    margin-left: 8px;
+    margin-left: 12px;
+    margin-top: 2px;
     width: 423px;
+    height: 96px;
 }
 
 .install-app {
     display: flex;
-    gap: 27px;
-    margin-left: -15px;
+    gap: 20px;
+    margin-right: 8px;
 }
 
 .app-store {
-  margin-left: -2px
+    margin-left: 4px
 }
 
 .app-store,
@@ -659,7 +716,7 @@ footer {
     flex-flow: row;
     justify-content: space-evenly;
     margin-top: 82px;
-    margin-left: 10px;
+    margin-right: 83px;
     height: 280px;
     width: 1340px;
 }
@@ -698,11 +755,23 @@ footer {
     cursor: pointer;
 }
 
-.support {
-    margin-left: -10px;
+.company {
+    margin-left: 14px;
 }
 
-h6 {
+.support {
+    margin-right: 14px;
+}
+
+.legal {
+    margin-right: 48px;
+}
+
+.app {
+    margin-right: 17px;
+}
+
+.footer__content p {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -711,12 +780,8 @@ h6 {
     margin-bottom: 24px;
 }
 
-.app {
-    margin-left: 35px;
-}
-
 .footer__install-app img {
-  margin-left: -2px;
+    margin-left: -2px;
 }
 
 .footer__gg-play {
@@ -745,37 +810,32 @@ h6 {
 .footer__copy-right {
     display: flex;
     justify-content: space-around;
-    margin-left: 12px;
 }
 
 .copy-right {
+    width: 577px;
+    height: 14px;
     color: #D9DBE1;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
-    margin-left: -2px;
-    margin-top: 15px;
+    margin-top: 34px;
+    margin-left: 6px;
 }
 
 .social-icon {
-    margin-left: 40px;
-    margin-top: -25px;
+    display: flex;
 }
 
 .icon {
-    padding: 24px 20px 24px 0;
+    padding: 24px 24px 24px 0;
     cursor: pointer;
 }
 
-.graph,
 .banner__logo img,
 .timeline img,
 .customer-ava img {
     width: 100%;
     height: 100%;
 }
-
-
-
-
