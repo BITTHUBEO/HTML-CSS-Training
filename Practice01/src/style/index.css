@@ -21,7 +21,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    height: 155px;
+    height: 158px;
     justify-content: space-evenly;
     width: 1440px;
     margin: auto;
