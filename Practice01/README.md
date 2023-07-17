@@ -24,7 +24,7 @@
 
 - Timeline:
   - Estimate: 6 days
-  - Actual: 14 days.
+  - Actual: 12 days.
   - Calendar:
     - Start: 2023/06/30
     - End: 2023/07/17

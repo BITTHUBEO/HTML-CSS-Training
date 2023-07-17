@@ -648,7 +648,7 @@ h2 {
 .customer-infor {
     align-items: center;
     margin-right: 33px;
-    margin-bottom: 2px;
+    margin-bottom: px;
     display: flex;
 }
 
@@ -832,7 +832,7 @@ footer {
     color: var(--Mischka);
     width: 577px;
     height: 14px;
-    margin-top: 34px;
+    margin-top: 33px;
     margin-left: 3px;
     font-size: 15px;
     font-style: normal;
@@ -845,7 +845,7 @@ footer {
 }
 
 .icon {
-    margin-left: 2px;
+    margin-left: 1px;
     padding: 24px 24px 24px 0;
     cursor: pointer;
 }
