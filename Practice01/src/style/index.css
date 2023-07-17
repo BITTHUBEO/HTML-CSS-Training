@@ -536,7 +536,6 @@ h2 {
     font-size: 40px;
     font-weight: 600;
     line-height: 48px;
-    margin-top: 7px;
 }
 
 .chart__content p {
@@ -628,7 +627,7 @@ h2 {
 .baseline {
     width: 264px;
     height: 4px;
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 .baseline--visibility-hidden {
@@ -648,7 +647,8 @@ h2 {
 
 .customer-infor {
     align-items: center;
-    margin-right: 34px;
+    margin-right: 33px;
+    margin-bottom: 2px;
     display: flex;
 }
 
