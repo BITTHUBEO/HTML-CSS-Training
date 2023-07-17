@@ -14,7 +14,7 @@ body {
     background-size: 100% 57%;
     border: 1px;
     height: 1485px;
-    margin-top: -9px;    
+    margin-top: -9px;
     margin-bottom: 37px;
 }
 
@@ -34,7 +34,8 @@ body {
 .header__logo {
     width: 92px;
     height: 24px;
-    margin-left: 24px;
+    margin-left: 16px;
+    margin-top: 2px;
 }
 
 .header__nav {
@@ -75,14 +76,14 @@ nav li:hover {
 .header__login-get-free a {
     color: var(--Limed-Spruce);
     opacity: 0.7;
-    margin-left: 16px;
+    margin-right: 11px;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
     text-decoration: none;
 }
 
-.header__login-get-free a.active:hover {
+.header-button:hover {
     background-color: var(--Perano);
 }
 
@@ -90,20 +91,15 @@ nav li:hover {
     color: var(--black);
 }
 
-a.active {
+.header-button {
     background-color: var(--Blue-Chalk);
     color: var(--Violet);
-    text-align: center;
-    margin-right: 32px;
+    margin-right: 28px;
     padding: 15px 29px;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 16px;
-}
-
-.active {
-    width: 169px;
+    border: none;
     height: 48px;
     border-radius: 4px;
 }
@@ -152,7 +148,6 @@ a.active {
 }
 
 
-
 .banner__save p,
 .banner__get-acc p {
     padding: 7px 0px 0px 3px;
@@ -160,8 +155,8 @@ a.active {
 
 .banner__get-acc p:hover {
     background: var(--Chrome-White);
-    width: 209px;
-    height: 25px;
+    width: 198px;
+    height: 26px;
     border-radius: 0px 100px 100px 0px;
 }
 
@@ -240,7 +235,7 @@ a.active {
 }
 
 .submit:hover,
-button:hover {
+.chart-button:hover {
     background-color: var(--Perano);
 }
 
@@ -394,7 +389,7 @@ button:hover {
     width: 368px;
     height: 128px;
     border-radius: 0px 8px 8px 0px;
-
+    margin-top: 2px;
 }
 
 .ad-feature p,
@@ -403,13 +398,13 @@ button:hover {
 }
 
 .ad-feature p,
-.ad-feature-title {
+.ad-feature h4 {
     margin-left: 33px;
 }
 
-.survey-feature-title {
-    margin-top: -6px;
-
+.survey-feature h4 {
+    margin-top: 5px;
+    margin-left: 24px;
 }
 
 .survey-feature p {
@@ -420,22 +415,21 @@ button:hover {
 .survey-feature,
 .ad-feature,
 .feature__descripstion img,
-.title,
 .feature__descripstion p {
     cursor: pointer;
 }
 
 .text {
     transform: translateY(35%);
-    margin-top: -13px;
+    margin-top: -10px;
 }
 
-.survey-feature-title,
-.ad-feature-title {
-    font-size: 18px !important;
+.survey-feature h4,
+.ad-feature h4 {
+    font-size: 18px;
     font-family: 'Inter', sans-serif;
-    font-weight: 600 !important;
-    line-height: 26px !important;
+    font-weight: 600;
+    line-height: 26px;
     margin-bottom: 1px;
 }
 
@@ -555,7 +549,7 @@ h2 {
     line-height: 24px;
 }
 
-button {
+.chart-button {
     background-color: var(--Cornflower-Blue);
     color: var(--white);
     cursor: pointer;
@@ -563,7 +557,7 @@ button {
     border-radius: 4px;
     width: 164px;
     height: 52px;
-    margin-top: 5px;
+    margin-top: 9px;
     margin-left: -8px;
     padding-top: 4px;
     padding-left: 0;
@@ -649,7 +643,6 @@ button {
     width: 48px;
     height: 48px;
 }
-
 
 
 .customer-infor {

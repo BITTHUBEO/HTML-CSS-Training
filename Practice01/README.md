@@ -24,10 +24,10 @@
 
 - Timeline:
   - Estimate: 6 days
-  - Actual: 10 days.
+  - Actual: 14 days.
   - Calendar:
     - Start: 2023/06/30
-    - End: 2023/07/14
+    - End: 2023/07/17
 
 ## Getting started
 
@@ -38,8 +38,8 @@
   - `cd ./html-css-training`.
 - Step 3: Move it to branch feature/practice1.
   - `$ git checkout feature/practice1.
-- Step 4: Move to folder Practice01.
-  - `$ cd ./Practice01`.
+- Step 4: Move to folder Practice1.
+  - `$ cd ./Practice1`.
 - Step 5:
   - Open terminal > `npm i`.
 - Step 6:
