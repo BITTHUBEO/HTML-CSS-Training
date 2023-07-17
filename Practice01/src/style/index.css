@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     height: 1485px;
     background-size: 100% 57%;
-    margin-bottom: 35px;
+    margin-bottom: 37px;
 }
 
 .header {
@@ -76,6 +76,10 @@ nav li:hover {
     display: flex;
 }
 
+.header__login-get-free {
+    margin-top: 3px;
+}
+
 .header__login-get-free a {
     text-decoration: none;
     color: var(--Limed-Spruce);
@@ -83,7 +87,7 @@ nav li:hover {
     font-weight: 400;
     opacity: 0.7;
     line-height: 16px;
-    margin-left: 15px;
+    margin-left: 16px;
 }
 
 .header__login-get-free a.active:hover {
@@ -122,13 +126,14 @@ a.active {
 .banner__discount {
     display: flex;
     justify-content: center;
-    height: 82px;
+    height: 79px;
     width: 100%;
     align-items: flex-end;
+    margin-right: 28px;
 }
 
 .banner__get-acc {
-    width: 197px;
+    width: 162px;
     height: 32px;
     border-radius: 0px 100px 100px 0px;
     background-color: #F2F9EB;
@@ -140,13 +145,12 @@ a.active {
     font-weight: 400;
     line-height: 16px;
     cursor: pointer;
-    margin-left: -12px;
 }
 
 .banner__save {
     border-radius: 100px;
-    width: 108px;
-    height: 32px;
+    width: 106px;
+    height: 33px;
     text-align: center;
     background-color: #81C43B;
     color: var(--white);
@@ -180,34 +184,36 @@ a.active {
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-weight: 700;
-    font-size: 66px;
-    line-height: 72px;
+    font-size: 65px;
+    line-height: 70px;
     width: 830px;
     height: 144px;
+    margin-right: 20px;
 }
 
 .banner__simple-text {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 25px;
     text-align: center;
     color: var(--River-Bed);
     width: 508px;
     height: 48px;
-    margin-left: -20px;
+    margin-right: 23px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 2px;
 }
 
 .banner__box {
     display: flex;
     justify-content: center;
-    margin: -2px 0px 0px -12px;
+    margin: -4px 0px 0px -12px;
     height: 60px;
 }
 
 .text-box {
     width: 320px;
-    height: 45px;
+    height: 48px;
     border-radius: 4px 0px 0px 4px;
     background-color: var(--white);
     border: 1px solid #E1E5EA;
@@ -224,7 +230,7 @@ a.active {
 
 .submit {
     width: 166px;
-    height: 49px;
+    height: 52px;
     border-radius: 0px 4px 4px 0px;
     border: 1px;
     background-color: var(--Violet);
@@ -247,8 +253,8 @@ button:hover {
     display: flex;
     justify-content: center;
     width: 1000px;
-    height: 730.29px;
-    margin-left: -10px;
+    height: 734.29px;
+    margin-right: 10px;
 }
 
 .graph-img {
@@ -260,7 +266,7 @@ button:hover {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 191px;
+    height: 190px;
     width: 1440px;
 }
 
@@ -305,7 +311,7 @@ button:hover {
 }
 
 .air img {
-    margin-left: 64px;
+    margin-left: 63px;
 }
 
 .fb {
@@ -325,7 +331,7 @@ button:hover {
 
 .hub img {
     margin-top: 2px;
-    margin-left: 19px;
+    margin-left: 18px;
 }
 
 .slack {
@@ -334,7 +340,7 @@ button:hover {
 }
 
 .slack {
-    margin-top: 2px
+    margin-top: 3px
 }
 
 .gg,
@@ -376,7 +382,7 @@ button:hover {
     width: 657px;
     height: 518px;
     border-radius: 4px;
-    margin-left: 7px;
+    margin-left: 4px;
 }
 
 .survey-feature {
@@ -385,7 +391,7 @@ button:hover {
     width: 368px;
     height: 128px;
     border-radius: 0px 8px 8px 0px;
-    margin-top: -1px;
+    margin-bottom: px;
 }
 
 .product__content {
@@ -407,13 +413,13 @@ button:hover {
 }
 
 .survey-feature-title {
-    margin-top: -5px;
-    margin-bottom: 5px;
+    margin-top: -6px;
+
 }
 
 .survey-feature p {
     margin-left: 24px;
-
+    margin-top: 6px
 }
 
 .survey-feature,
@@ -426,6 +432,7 @@ button:hover {
 
 .text {
     transform: translateY(35%);
+    margin-top: -13px;
 }
 
 .survey-feature-title,
@@ -436,6 +443,7 @@ button:hover {
     font-style: normal;
     font-weight: 600 !important;
     line-height: 26px !important;
+    margin-bottom: 1px;
 }
 
 .line {
@@ -465,21 +473,28 @@ h2 {
 }
 
 .functions__headline {
-    margin-top: 86px;
+    margin-top: 97px;
+    margin-right: 17px;
 }
 
 .feature {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left: 85px;
+    margin-left: 79px;
+    margin-top: 12px;
+    margin-bottom: 3px;
 }
 
 .feature__descripstion {
     width: 23%;
     display: inline-block;
     padding: 36px;
-    margin: 2px 10px 10px 2px;
+    margin: 2px 10px 3px 2px;
+}
+
+.feature__descripstion img {
+    margin-bottom: 15px;
 }
 
 .feature__descripstion p {
@@ -488,7 +503,7 @@ h2 {
     font-size: 16px;
     line-height: 24px;
     color: var(--River-Bed);
-    margin: 6px 0px 0px 4px;
+    margin: 6px 0px 0px 0px;
 }
 
 h4 {
@@ -497,7 +512,6 @@ h4 {
     font-weight: 600;
     line-height: 18px;
     color: var(--Limed-Spruce);
-    margin-top: px;
 }
 
 .charts {
@@ -506,7 +520,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 92px;
+    gap: 88px;
 }
 
 .chart-image {
@@ -519,7 +533,8 @@ h4 {
     flex-direction: column;
     gap: 25px;
     margin-top: 2px;
-    margin-left: 21px;
+    margin-left: 14px;
+    margin-bottom: 5px;
 }
 
 .chart__content h2 {
@@ -561,7 +576,7 @@ button {
 
 .about-us {
     width: 100%;
-    height: 787px;
+    height: 786px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -582,9 +597,9 @@ button {
     width: 394px;
     height: 96px;
     line-height: 48px;
-    margin-top: 41px;
+    margin-top: 40px;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 14px;
 }
 
 .about-us__content p {
@@ -594,14 +609,14 @@ button {
     font-size: 18px;
     line-height: 32px;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: -2px;
 }
 
 .customers-feedbacks {
     display: flex;
     height: 126px;
-    gap: 160px;
+    gap: 90px;
     margin-bottom: 62px;
     margin-left: 10px;
 }
@@ -609,6 +624,7 @@ button {
 .baseline {
     width: 264px;
     height: 4px;
+    margin-top: 2px;
 }
 
 .baseline--visibility-hidden {
@@ -634,12 +650,15 @@ button {
 }
 
 .customer-infor {
-    display: flex;
+    margin-bottom: 6px;
     align-items: center;
+    display: flex;
+    margin-right: 34px;
 }
 
 .name-job {
-    margin-left: 20px;
+    margin-left: 16px;
+    margin-bottom: 6px;
 }
 
 .name,
@@ -651,14 +670,14 @@ button {
 
 .name {
     font-weight: 600;
-    margin-left: -3px;
-    margin-top: -4px;
+    margin-right: 7px;
+    margin-top: 3px;
 }
 
 .job {
     font-weight: 400;
     margin-top: 7px;
-    margin-left: -3px;
+    margin-left: 0px;
 }
 
 .install-section {
@@ -669,7 +688,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-right: 6px;
+    margin-right: 11px;
 }
 
 h3 {
@@ -687,7 +706,7 @@ h3 {
 .install-app {
     display: flex;
     gap: 20px;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 .app-store {
@@ -720,7 +739,7 @@ footer {
     flex-flow: row;
     justify-content: space-evenly;
     margin-top: 82px;
-    margin-right: 83px;
+    margin-right: 90px;
     height: 280px;
     width: 1340px;
 }
@@ -760,15 +779,15 @@ footer {
 }
 
 .company {
-    margin-left: 14px;
+    margin-left: 15px;
 }
 
 .support {
-    margin-right: 14px;
+    margin-right: 18px;
 }
 
 .legal {
-    margin-right: 48px;
+    margin-right: 49px;
 }
 
 .app {
@@ -784,12 +803,9 @@ footer {
     margin-bottom: 24px;
 }
 
-.footer__install-app img {
-    margin-left: -2px;
-}
-
 .footer__gg-play {
-    margin-bottom: 11px;
+    margin-top: -2px;
+    margin-bottom: 12px;
     cursor: pointer;
 }
 
@@ -825,7 +841,7 @@ footer {
     font-weight: 400;
     line-height: 14px;
     margin-top: 34px;
-    margin-left: 6px;
+    margin-left: 3px;
 }
 
 .social-icon {
@@ -833,6 +849,7 @@ footer {
 }
 
 .icon {
+    margin-left: 2px;
     padding: 24px 24px 24px 0;
     cursor: pointer;
 }
