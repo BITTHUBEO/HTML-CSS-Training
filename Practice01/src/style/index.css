@@ -6,6 +6,7 @@
 body {
     color: var(--Limed-Spruce);
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden; 
 }
 
 .banner {
@@ -34,12 +35,14 @@ body {
 .header__logo {
     width: 92px;
     height: 24px;
-    margin-left: 16px;
+    margin-left: 10px;
     margin-top: 2px;
+    cursor: pointer;
 }
 
 .header__nav {
-    margin-right: 26px;
+    margin-left: 32px;
+    margin-top: 10px;
 }
 
 .header__nav-list {
@@ -50,15 +53,16 @@ body {
     display: flex;
 }
 
-.header__nav-list li {
+.header__nav-list li a {
     color: var(--Limed-Spruce);
     opacity: 0.7;
     cursor: pointer;
     margin-top: 8px;
-    margin-right: 10px;
+    margin-right: 6px;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
+    text-decoration: none;
 }
 
 nav li:hover {
@@ -76,7 +80,7 @@ nav li:hover {
 .header__login-get-free a {
     color: var(--Limed-Spruce);
     opacity: 0.7;
-    margin-right: 11px;
+    margin-right: 15px;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
@@ -92,9 +96,9 @@ nav li:hover {
 }
 
 .header-button {
-    background-color: var(--Blue-Chalk);
+    background-color: #ECE5FF;
     color: var(--Violet);
-    margin-right: 28px;
+    margin-right: 18px;
     padding: 15px 29px;
     font-size: 16px;
     font-weight: 500;
@@ -124,27 +128,31 @@ nav li:hover {
     text-align: center;
     color: var(--white);
     z-index: 1;
-    background-color: var(--Sushi);
+    background-color: #81C43B;
     border-radius: 100px;
-    width: 106px;
+    width: 108px;
     height: 33px;
     position: sticky;
 }
 
 .banner__get-acc {
-    background-color: var(--Frost);
+    background-color: #F2F9EB;
     text-align: center;
-    color: var(--Limed-Spruce);
     cursor: pointer;
     border-radius: 0 100px 100px 0;
     width: 198px;
     height: 32px;
-    margin-left: -15px;
+    margin-left: -15px; 
+}
+
+.banner__get-acc a {
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
+    text-decoration: none;
+    color: var(--Limed-Spruce);
 }
 
 
@@ -154,7 +162,7 @@ nav li:hover {
 }
 
 .banner__get-acc p:hover {
-    background: var(--Chrome-White);
+    background: #DCECCB;
     width: 198px;
     height: 26px;
     border-radius: 0px 100px 100px 0px;
@@ -197,16 +205,20 @@ nav li:hover {
 .banner__box {
     justify-content: center;
     height: 60px;
-    margin: -4px 0 0 -12px;
+    margin: -4px 10px 0 1px;
     display: flex;
 }
 
 .text-box {
     background-color: var(--white);
-    border: 1px solid var(--Athens-Gray);
-    border-radius: 4px 0 0 4px;
+    border: 1px solid #E1E5EA;
+    border-radius: 4px 0px 0 4px;
     width: 320px;
     height: 48px;
+}
+
+input[type=text] {
+    padding-left: 20px;
 }
 
 ::placeholder {
@@ -214,8 +226,8 @@ nav li:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
-    color: var(--Gull-Gray);
-    padding: 18px 99px 18px 22px;
+    color: #97A5B5;
+    padding: 18px 99px 18px 2px;
 }
 
 .submit {
@@ -228,10 +240,10 @@ nav li:hover {
     border-radius: 0 4px 4px 0;
     width: 166px;
     height: 52px;
-    margin-left: -12px;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
+    margin-left: -30px;
 }
 
 .submit:hover,
@@ -291,46 +303,27 @@ nav li:hover {
     height: 26.11px;
 }
 
-.gg img {
-    margin-left: 86px;
-}
-
 .air {
     width: 80px;
     height: 24.96px;
 }
 
-.air img {
-    margin-left: 62px;
-}
-
 .fb {
     width: 77.17px;
-    height: 15.82px
-}
-
-.fb img {
-    margin-left: 37px;
-    margin-top: 4px
+    height: 15.82px;
+    margin-top: 4px;
 }
 
 .hub {
     width: 80px;
-    height: 23.3px;
-}
-
-.hub img {
+    height: 23.3px;    
     margin-top: 2px;
-    margin-left: 18px;
 }
 
 .slack {
     width: 80px;
     height: 20.24px;
-}
-
-.slack {
-    margin-top: 3px
+    margin-top: 3px;
 }
 
 .gg,
@@ -339,14 +332,6 @@ nav li:hover {
 .hub,
 .slack img {
     cursor: pointer;
-}
-
-.gg:hover,
-.air:hover,
-.fb:hover,
-.hub:hover,
-.slack:hover {
-    transform: scale(1.3);
 }
 
 .product {
@@ -384,7 +369,7 @@ nav li:hover {
 }
 
 .survey-feature {
-    background-color: var(--White-Lilac);
+    background-color: #F6F3FC;
     border-left: 8px solid var(--Violet);
     width: 368px;
     height: 128px;
@@ -410,13 +395,6 @@ nav li:hover {
 .survey-feature p {
     margin-left: 24px;
     margin-top: 6px
-}
-
-.survey-feature,
-.ad-feature,
-.feature__descripstion img,
-.feature__descripstion p {
-    cursor: pointer;
 }
 
 .text {
@@ -550,7 +528,7 @@ h2 {
 }
 
 .chart-button {
-    background-color: var(--Cornflower-Blue);
+    background-color: #796EFF;
     color: var(--white);
     cursor: pointer;
     border: none;
@@ -799,9 +777,14 @@ footer {
     line-height: 16px;
 }
 
+.footer__install-app {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .footer__gg-play {
     margin-top: -2px;
-    margin-bottom: 12px;
     cursor: pointer;
 }
 
@@ -829,7 +812,7 @@ footer {
 }
 
 .copy-right {
-    color: var(--Mischka);
+    color: #D9DBE1;
     width: 577px;
     height: 14px;
     margin-top: 33px;
@@ -842,11 +825,14 @@ footer {
 
 .social-icon {
     display: flex;
+    padding-bottom: 21px;
+    gap: 23px;
+    margin-right: 27px;
+    padding-top: 23px;
+    display: flex;
 }
 
 .icon {
-    margin-left: 1px;
-    padding: 24px 24px 24px 0;
     cursor: pointer;
 }
 
