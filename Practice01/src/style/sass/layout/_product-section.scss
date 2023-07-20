@@ -1,0 +1,25 @@
+.product {
+    background-image: url(../../assets/image/bgintro.png);
+    background-repeat: round;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+    height: 641px;
+    display: flex;
+}
+
+.timeline {
+    border-radius: 4px;
+    width: 657px;
+    height: 518px;
+    margin-left: 4px;
+}
+
+.product__content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+    margin-left: 5px;
+    display: flex;
+}
+

@@ -1,0 +1,84 @@
+.header {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    height: 158px;
+    margin: auto;
+    display: flex;
+}
+
+.header__logo {
+    width: 92px;
+    height: 24px;
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.header__nav {
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+.header__nav-list {
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 4px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.header__nav-list li a {
+    color: var(--Limed-Spruce);
+    opacity: 0.7;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-right: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__login-get-free {
+    margin-top: 3px;
+}
+
+.header__login-get-free a {
+    color: var(--Limed-Spruce);
+    opacity: 0.7;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.header-button:hover {
+    background-color: var(--Perano);
+}
+
+.header__login-get-free a :hover {
+    color: var(--black);
+}
+
+.header-button {
+    background-color: #ECE5FF;
+    color: var(--Violet);
+    margin-right: 18px;
+    padding: 15px 29px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    height: 48px;
+    border-radius: 4px;
+}
+
+nav li:hover {
+    color: black;
+}
