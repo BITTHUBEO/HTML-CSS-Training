@@ -1,84 +1,61 @@
 .header {
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 1440px;
-    height: 158px;
+    width: 414px;
+    height: 54px;
     margin: auto;
     display: flex;
-}
-
-.header__logo {
+  }
+  
+  .header__logo {
     width: 92px;
     height: 24px;
     margin-left: 10px;
     margin-top: 2px;
     cursor: pointer;
-}
-
-.header__nav {
+  }
+  
+  .header__nav {
+    display: none;
     margin-left: 32px;
     margin-top: 10px;
-}
-
-.header__nav-list {
-    align-items: center;
-    gap: 23px;
-    margin-bottom: 4px;
-    margin-left: 50px;
+  }
+  
+  .header__nav-list {
+    display: none;
+  }
+  
+  .header__login-get-free a {
+    display: none;
+  }
+  
+  .header-button {
+    display: none;
+  }
+  
+  .menu {
     display: flex;
-}
-
-.header__nav-list li a {
-    color: var(--Limed-Spruce);
-    opacity: 0.7;
-    cursor: pointer;
-    margin-top: 8px;
-    margin-right: 6px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
-    text-decoration: none;
-}
-
-.header__nav {
-    display: flex;
-}
-
-.header__login-get-free {
-    margin-top: 3px;
-}
-
-.header__login-get-free a {
-    color: var(--Limed-Spruce);
-    opacity: 0.7;
+    flex-direction: column;
+  }
+  
+  .menu-icon {
+    margin-top: 20px;
     margin-right: 15px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
-    text-decoration: none;
-}
-
-.header-button:hover {
-    background-color: var(--Perano);
-}
-
-.header__login-get-free a :hover {
-    color: var(--black);
-}
-
-.header-button {
-    background-color: #ECE5FF;
-    color: var(--Violet);
-    margin-right: 18px;
-    padding: 15px 29px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 16px;
+    background: none;
     border: none;
-    height: 48px;
-    border-radius: 4px;
-}
-
-nav li:hover {
-    color: black;
-}
+    cursor: pointer;
+  }
+  
+  .menu p {
+    width: 24px;
+    height: 8px;
+    color: #4E5A65;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8px; 
+    margin-left: 6px;
+    margin-top: 2px;
+  }
