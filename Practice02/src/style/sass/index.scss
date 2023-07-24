@@ -1,0 +1,29 @@
+
+// Abstracts
+@import './abstracts/placeholder';
+@import './abstracts/variables';
+
+// Base
+@import './base/reset';
+@import './base/typo';
+
+
+// Components
+@import './components/customer-feedbacks';
+@import './components/functions';
+@import './components/product-feature';
+@import './components/social-icon';
+
+
+// Layout
+@import './layout/header';
+@import './layout/banner';
+@import './layout/product-section';
+@import './layout/functions-section';
+@import './layout/chart-section.scss';
+@import './layout/about-us-section';
+@import './layout/footer';
+
+
+// Pages
+@import 'landingpage';
