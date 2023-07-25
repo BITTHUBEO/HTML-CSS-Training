@@ -20,10 +20,10 @@
 @import './layout/banner';
 @import './layout/product-section';
 @import './layout/functions-section';
-@import './layout/chart-section.scss';
+@import './layout/chart-section';
 @import './layout/about-us-section';
 @import './layout/footer';
 
 
 // Pages
-@import 'landingpage';
+@import './pages/landingpage';

@@ -1,42 +1,91 @@
 .banner__logo {
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .gg {
+    object-fit: fill;
+    width: 56px;
+    height: 18.278px;
+  }
+  
+  .air {
+    object-fit: fill;
+    width: 56px;
+    height: 17.472px;
+  }
+  
+  .fb {
+    object-fit: fill;
+    width: 53.17px;
+    height: 10.902px;
+    margin-top: 4px;
+  }
+  
+  .hub {
+    object-fit: fill;
+    width: 56px;
+    height: 16.307px;   
+  }
+  
+  .slack {
+    display: none;
+  }
+  
+  .gg,
+  .air,
+  .fb,
+  .hub,
+  .slack img {
+    cursor: pointer;
+  }
+
+  
+@media only screen and (min-width: 415px) {
+  .banner__logo {
+    justify-content: center;
     width: 1342px;
     margin-top: 23px;
     display: flex;
-}
-
-.gg {
+    gap: 90px;
+  }
+  
+  .gg {
     width: 80px;
     height: 26.11px;
-}
-
-.air {
+  }
+  
+  .air {
     width: 80px;
     height: 24.96px;
-}
-
-.fb {
+  }
+  
+  .fb {
     width: 77.17px;
     height: 15.82px;
     margin-top: 4px;
-}
-
-.hub {
+  }
+  
+  .hub {
     width: 80px;
     height: 23.3px;    
-    margin-top: 2px;
-}
-
-.slack {
+    margin-top: 2px; 
+  }
+  
+  .slack {
+    display: block;
     width: 80px;
     height: 20.24px;
     margin-top: 3px;
-}
-
-.gg,
-.air,
-.fb,
-.hub,
-.slack img {
+  }
+  
+  .gg,
+  .air,
+  .fb,
+  .hub,
+  .slack img {
     cursor: pointer;
+  }
 }

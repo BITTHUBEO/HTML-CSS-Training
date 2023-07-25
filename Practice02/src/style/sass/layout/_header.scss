@@ -3,7 +3,7 @@
   align-items: center;
   width: 414px;
   height: 54px;
-  margin: auto;
+  margin-top: 13px;
   display: flex;
 }
 
@@ -55,7 +55,106 @@
   font-size: 8px;
   font-style: normal;
   font-weight: 400;
-  line-height: 8px; 
+  line-height: 8px;
   margin-left: 6px;
   margin-top: 2px;
+}
+
+
+@media only screen and (min-width: 415px) {
+  .header {
+      justify-content: space-evenly;
+      align-items: center;
+      width: 1440px;
+      height: 158px;
+      margin: auto;
+      display: flex;
+  }
+
+  .header__logo {
+      width: 92px;
+      height: 24px;
+      margin-left: 10px;
+      margin-top: 2px;
+      cursor: pointer;
+  }
+
+  .header__nav {
+      display: block;
+      margin-left: 32px;
+      margin-top: 10px;
+  }
+
+  .header__nav-list {
+      display: block;
+      align-items: center;
+      gap: 23px;
+      margin-bottom: 4px;
+      margin-left: 50px;
+      display: flex;
+  }
+
+  .header__nav-list li a {
+      color: var(--Limed-Spruce);
+      opacity: 0.7;
+      cursor: pointer;
+      margin-top: 8px;
+      margin-right: 6px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      text-decoration: none;
+  }
+
+  nav li:hover {
+      color: black;
+  }
+
+  .header__nav {
+      display: flex;
+  }
+
+  .header__login-get-free {
+      margin-top: 3px;
+      display: flex;
+  }
+
+  .header__login-get-free a {
+      display: block;
+      color: var(--Limed-Spruce);
+      opacity: 0.7;
+      margin-right: 15px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      text-decoration: none;
+      margin-top: 18px;
+  }
+
+  .header-button:hover {
+      background-color: var(--Perano);
+  }
+
+  .header__login-get-free a :hover {
+      color: var(--black);
+  }
+
+  .header-button {
+      display: block;
+      background-color: #ECE5FF;
+      color: var(--Violet);
+      margin-right: 18px;
+      padding: 15px 29px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      border: none;
+      height: 48px;
+      border-radius: 4px;
+  }
+
+
+  .menu {
+      display: none;
+  }
 }

@@ -1,6 +1,6 @@
-@import url("./base/reset.css");
-@import url("./base/typo.css");
-@import url("./abstracts/varibles.css");
+@import url("../style/sass/base/_reset.scss");
+@import url("../style/sass/base/_typo.scss");
+@import url("../style/sass/abstracts/_variables.scss");
 
 
 body {
@@ -126,7 +126,7 @@ nav li:hover {
 
 .banner__save {
     text-align: center;
-    color: var(--white);
+    color: var(--primary);
     z-index: 1;
     background-color: #81C43B;
     border-radius: 100px;
@@ -210,7 +210,7 @@ nav li:hover {
 }
 
 .text-box {
-    background-color: var(--white);
+    background-color: var(--primary);
     border: 1px solid #E1E5EA;
     border-radius: 4px 0px 0 4px;
     width: 320px;
@@ -232,7 +232,7 @@ input[type=text] {
 
 .submit {
     background-color: var(--Violet);
-    color: var(--white);
+    color: var(--primary);
     cursor: pointer;
     letter-spacing: 0;
     text-align: center;
@@ -529,7 +529,7 @@ h2 {
 
 .chart-button {
     background-color: #796EFF;
-    color: var(--white);
+    color: var(--primary);
     cursor: pointer;
     border: none;
     border-radius: 4px;
@@ -666,12 +666,12 @@ h2 {
 }
 
 h3 {
-    color: var(--white);
+    color: var(--primary);
     width: 423px;
     height: 96px;
     margin-top: 2px;
     margin-left: 12px;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 600;
     line-height: 48px;
@@ -740,7 +740,7 @@ footer {
 .support ul li a,
 .legal ul li a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--primary);
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
@@ -769,9 +769,9 @@ footer {
 }
 
 .footer__content p {
-    color: var(--white);
+    color: var(--primary);
     margin-bottom: 24px;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 16px;
@@ -799,8 +799,8 @@ footer {
 }
 
 .line-footer {
-    border: 0.1px solid var(--white);
-    color: var(--white);
+    border: 0.1px solid var(--primary);
+    color: var(--primary);
     opacity: 0.1;
     width: 100%;
     margin-top: 5px;

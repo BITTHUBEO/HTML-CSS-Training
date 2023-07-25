@@ -6,3 +6,9 @@
     color: #97A5B5;
     padding: 18px 99px 18px 2px;
 }
+
+@media only screen and (min-width: 415px) {
+    ::placeholder {
+        font-family: 'Inter', sans-serif;
+    }
+}
