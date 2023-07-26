@@ -11,7 +11,7 @@
   background-color: #796EFF;
   justify-content: space-evenly;
   align-items: center;
-  width: 414px;
+  width: 100%;
   height: 292px;
   display: flex;
   flex-direction: column;
@@ -44,20 +44,21 @@ h3 {
       justify-content: space-between;
       align-items: center;
       gap: 6px;
-      width: 100%;
+      width: 1440px;
       height: 786px;
       display: flex;
+      margin: auto;
+      margin-bottom: 100px;
   }
 
   .install-section {
-      background-color: #796EFF;
+    background-image: url(../../assets/image/install-section.png);
       justify-content: space-evenly;
       align-items: left;
       width: 1110px;
       height: 224px;
-      background-repeat: no-repeat;
       margin-top: 56px;
-      margin-right: 12px;
+      margin-right: 2px;
       border-radius: 16px;
       flex-direction: row;
   }
@@ -76,6 +77,7 @@ h3 {
       margin-right: 10px;
       display: flex;
       gap: 20px;
+      flex-direction: row;
 
   }
 }

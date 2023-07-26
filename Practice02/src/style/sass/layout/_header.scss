@@ -74,14 +74,14 @@
   .header__logo {
       width: 92px;
       height: 24px;
-      margin-left: 10px;
-      margin-top: 2px;
+      margin-left: 18px;
+      margin-top: 0px;
       cursor: pointer;
   }
 
   .header__nav {
       display: block;
-      margin-left: 32px;
+      margin-left: 37px;
       margin-top: 10px;
   }
 
@@ -115,7 +115,7 @@
   }
 
   .header__login-get-free {
-      margin-top: 3px;
+      margin-top: 0px;
       display: flex;
   }
 
@@ -123,7 +123,7 @@
       display: block;
       color: var(--Limed-Spruce);
       opacity: 0.7;
-      margin-right: 15px;
+      margin-right: 19px;
       font-size: 16px;
       font-weight: 400;
       line-height: 16px;
@@ -143,8 +143,8 @@
       display: block;
       background-color: #ECE5FF;
       color: var(--Violet);
-      margin-right: 18px;
-      padding: 15px 29px;
+      margin-right: 14px;
+      padding: 10px 29px;
       font-size: 16px;
       font-weight: 500;
       line-height: 16px;

@@ -54,8 +54,9 @@
   .product__content {
     flex-direction: column;
     gap: 22px;
-    margin-left: 5px;
+    margin-left: 0px;
     display: flex;
+    margin-top: -3px;
 }
 
 .survey-feature p,
@@ -79,7 +80,7 @@
 
 .ad-feature {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 0px;
   width: 385px;
 }
 
@@ -91,6 +92,7 @@
 .ad-feature p,
 .ad-feature h4 {
     margin-left: 33px;
+    margin-top: 2px;
 }
 
 .survey-feature h4 {
@@ -118,7 +120,7 @@
 }
 
 .line {
-    margin-top: 27px;
+    margin-top: 23px;
     margin-left: 17px;
 }
 

@@ -73,11 +73,12 @@
       background-image: url(../../assets/image/bgcharts.png);
       justify-content: center;
       align-items: center;
-      gap: 88px;
+      gap: 70px;
       height: 541px;
       display: flex;
       flex-direction: row;
-      width: 100%;
+      width: 1440px;
+      margin: auto;
   }
 
   .chart__content {
@@ -85,16 +86,16 @@
       display: flex;
       order: 0;
       gap: 25px;
-      margin-top: 2px;
+      margin-top: 5px;
       margin-bottom: 5px;
-      margin-left: 14px;
+      margin-right: 2px;
   }
 
   .chart-image {
       width: 596.39px;
       height: 404.684px;
-      margin-top: 32px;
-      margin-left: 10px;
+      margin-top: 0px;
+      margin-left: 15px;
   }
 
   .chart-image img {
@@ -116,7 +117,7 @@
       width: 413px;
       color: #4E5A65;
       text-align: left;
-      margin-top: 5px;
+      margin-top: 0px;
       margin-left: -8px;
   }
 
@@ -126,8 +127,8 @@
       width: 164px;
       height: 52px;
       flex-shrink: 0;
-      margin-bottom: 32px;
-      margin-left: -8px;
+      margin-top: 4px;
+      margin-left: -10px;
       padding-bottom: 3px;
   }
 }
