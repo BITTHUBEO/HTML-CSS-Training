@@ -5,7 +5,6 @@
   border: 1px;
   margin-top: -12px;
   margin-bottom: 60px;
-  width: 414px;
 }
 
 .banner__sign-up {
@@ -57,12 +56,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 267px;
+  height: 218px;
   display: flex;
 }
 
 .banner__heading {
-  width: 318px;
+  width: 65%;
   color: var(--Limed-Spruce);
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -80,7 +79,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  width: 318px;
+  width: 72%;
 }
 
 .banner__box {
@@ -165,7 +164,28 @@ input[type=text] {
   line-height: 11px;
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 576px) {
+  .banner {
+    background-image: url(../../../../Practice02/src/assets/image/bgbanner.png);
+    background-size: 100% 60%;
+  }
+  .banner__heading {
+    font-size: 42px;
+    width: 86%;
+    line-height: 50px;
+  }
+  .graph {
+    width: 472px;
+    height: 361.288px;
+  }
+  .banner__simple-text {
+    width: 79%;
+    margin-top: 16px;
+}
+}
+
+
+@media only screen and (min-width: 992px) {
   .banner {
       background-size: 100% 60%;
       width: 1440px;
@@ -246,11 +266,11 @@ input[type=text] {
   .banner__simple-text {
       color: var(--River-Bed);
       font-family: 'Inter', sans-serif;
-      font-size: 15px;
+      font-size: 16px;
       font-style: normal;
       font-weight: 400;
       line-height: 25px;
-      width: 508px;
+      width: 52%;
       height: 48px;
       margin-bottom: 5px;
       margin-right: 48px;

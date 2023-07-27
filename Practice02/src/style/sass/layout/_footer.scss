@@ -2,7 +2,6 @@ footer {
   background-color: var(--Ebony-Clay);
   flex-direction: column;
   justify-content: space-around;
-  width: 414px;
   height: 483px;
   margin-top: 56px;
   display: flex;
@@ -67,7 +66,6 @@ footer {
   border: 0.1px solid var(--primary);
   color: var(--primary);
   opacity: 0.1;
-  width: 428px;
   margin-bottom: -30px;
 }
 
@@ -91,7 +89,7 @@ footer {
   width: 20px;
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 992px) {
   footer {
       align-items: center;
       width: 1440px;

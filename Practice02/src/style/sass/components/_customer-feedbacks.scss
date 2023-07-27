@@ -16,7 +16,7 @@
   
   .about-us__content p {
     font-family: 'Inter', sans-serif;
-    width: 315px;
+    width: 69%;
     color: var(--River-Bed);
     text-align: center;
     font-size: 16px;
@@ -63,7 +63,17 @@
     display: none;
   }
 
-  @media only screen and (min-width: 415px) {
+  @media only screen and (min-width: 576px) {
+    .about-us {
+      width: 61%;
+    }
+    .about-us__content p {
+      width: 444px;
+  }
+  }
+
+
+  @media only screen and (min-width: 992px) {
     .about-us__content {
       gap: 50px;
       margin-top: 60px;

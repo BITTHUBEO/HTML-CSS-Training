@@ -1,11 +1,9 @@
 .charts {
-  background-image: url(../../assets/image/bgcharts.png);
+  background-color: #fbfafe;;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 414px;
-  margin-right: 12px;
   height: 538px;
 }
 
@@ -15,6 +13,7 @@
   order: 2;
   margin-bottom: 6px;
   gap: 16px;
+  align-items: center;
 }
 
 .chart-image {
@@ -37,14 +36,13 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
-  margin-left: 20%;
   margin-top: 32px;
 }
 
 .chart__content p {
   font-family: 'Inter', sans-serif;
   color: var(--River-Bed);
-  width: 300px;
+  width: 72%;
   font-size: 16px;
   color: #4E5A65;
   text-align: center;
@@ -68,7 +66,16 @@
   margin-bottom: 32px;
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 576px) {
+  .chart-image {
+    width: 400px;
+    height: 300.648px;
+    margin-top: 32px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .charts {
       background-image: url(../../assets/image/bgcharts.png);
       justify-content: center;
@@ -89,6 +96,7 @@
       margin-top: 5px;
       margin-bottom: 5px;
       margin-right: 2px;
+      text-align: flex-start;
   }
 
   .chart-image {
