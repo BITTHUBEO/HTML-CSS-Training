@@ -59,7 +59,7 @@
     margin-top: 40px;
   }
   
-  .customer-infor-hidden {
+  .customer-pro-hidden {
     display: none;
   }
 
@@ -99,18 +99,6 @@
       margin-left: 25px;
     }
     
-    .baseline {
-      display: block;
-      width: 264px;
-      height: 4px;
-      margin-bottom: 10px;
-      margin-left: 40px;
-    }
-    
-    .baseline--visibility-hidden {
-      display: block;
-      visibility: hidden;
-    }
 
     .name-job {
       margin-left: 16px;
@@ -152,17 +140,13 @@
       margin-right: 15px;
       margin-bottom: 28px;
   }
-    .customer-infor-hidden {
-      display: block;
-      margin-left: -55px;
-      margin-top: 47px;
-    }
-    .customer-infor, 
-    .customer-infor-hidden {
+    .customer-infor {
       margin-right: 2px;
       display: flex;
-      flex-direction: row;
-     
+      flex-direction: row;     
+    }
+    .customer-pro-hidden {
+      display: none;
     }
     .customer-infor {
        margin-top: 25px;
@@ -171,5 +155,31 @@
     .customer-ava {
       margin-bottom: 15px;
     }
+  }
 
+  @media only screen and (min-width: 1400px) {
+     .baseline {
+      display: block;
+      width: 264px;
+      height: 4px;
+      margin-bottom: 10px;
+      margin-left: 40px;
+    }
+    .customer-pro {
+      margin-bottom: 15px;
+      margin-right: 50px;
+    }
+    .baseline--visibility-hidden {
+      display: block;
+      visibility: hidden;
+    }
+    .customer-pro-hidden {
+      display: block;
+    }
+    .customer-ava {
+      margin-top: 10px;
+    }
+    .customer-infor {
+      margin-top: 12px;
+    }
   }

@@ -188,7 +188,7 @@ input[type=text] {
 @media only screen and (min-width: 992px) {
   .banner {
       background-size: 100% 60%;
-      width: 1440px;
+      width: 100%;
       margin: auto;
       margin-bottom: 100px;
       margin-top: -9px;
@@ -216,7 +216,7 @@ input[type=text] {
   .banner__discount {
     justify-content: center;
     align-items: flex-end;
-    width: 100%;
+    width: 69%;
     height: 79px;
     margin-left: 10px;
     display: flex;
@@ -251,14 +251,15 @@ input[type=text] {
 
   .banner__content {
       gap: 23px;
+      height: 270px;
   }
 
 
   .banner__heading {
-      width: 800px;
+      width: 786px;
       height: 144px;
-      margin-right: 30px;
-      font-size: 63px;
+      margin-right: 0px;
+      font-size: 67px;
       font-weight: 700;
       line-height: 70px;
   }
@@ -273,7 +274,8 @@ input[type=text] {
       width: 52%;
       height: 48px;
       margin-bottom: 5px;
-      margin-right: 48px;
+      margin-right: 34px;
+      margin-top: 0px;
   }
 
   .banner__box {
@@ -281,7 +283,7 @@ input[type=text] {
       display: inline;
       height: 60px;
       margin-left: 0px;
-      margin-top: -4px;
+      margin-top: -7px;
       margin-bottom: -9px;
   }
 
@@ -321,7 +323,7 @@ input[type=text] {
   }
 
   .banner__media-logo {
-      width: 1440px;
+      width: 96%;
       margin-top: 61px;
   }
 
@@ -335,5 +337,11 @@ input[type=text] {
       font-size: 16px;
       line-height: 16px;
   }
-
 }
+
+@media only screen and (min-width: 1400px) {
+  .banner__media-logo {
+      width: 69%;
+  }
+}
+  

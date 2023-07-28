@@ -68,9 +68,8 @@
     .feature {
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 5px;
+      margin-top: 55px;
       margin-bottom: 3px;
-      margin-left: 40px;
       display: flex;
       gap: 0px;
     }
@@ -107,8 +106,12 @@
       font-weight: 400;
       line-height: 24px;
       text-align: left;
-      width: 300px;
+      width: 89%;
       margin-top: 10px;
     }
-  
+  }
+  @media only screen and (min-width: 1400px) {
+    .feature {
+      width: 71%;
+    }
   }

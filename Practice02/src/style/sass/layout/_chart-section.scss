@@ -84,7 +84,7 @@
       height: 541px;
       display: flex;
       flex-direction: row;
-      width: 1440px;
+      width: 100%;
       margin: auto;
   }
 
@@ -96,7 +96,7 @@
       margin-top: 5px;
       margin-bottom: 5px;
       margin-right: 2px;
-      text-align: flex-start;
+      align-items: flex-start;
   }
 
   .chart-image {
