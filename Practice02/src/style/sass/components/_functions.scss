@@ -25,7 +25,7 @@
   .feature__descripstion__hidden h4 {
     color: var(--second);
     margin-top: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-weight: 600;
     line-height: 18px;
     text-align: center;
@@ -34,8 +34,8 @@
   
   .feature__descripstion p,
   .feature__descripstion__hidden p {
-    color: var(--River-Bed);
-    font-family: 'Inter', sans-serif;
+    color: var(--river-bed);
+    font-family: 'Inter';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -91,7 +91,7 @@
     .feature__descripstion__hidden h4 {
       color: var(--second);
       margin-top: 15px;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Inter';
       font-weight: 600;
       line-height: 18px;
       text-align: left;
@@ -100,8 +100,8 @@
     
     .feature__descripstion p,
     .feature__descripstion__hidden p {
-      color: var(--River-Bed);
-      font-family: 'Inter', sans-serif;
+      color: var(--river-bed);
+      font-family: 'Inter';
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
@@ -116,7 +116,7 @@
     }
     .feature__descripstion p,
     .feature__descripstion__hidden p {
-      width: 92%;
+      width: 102%;
   }
 }
 

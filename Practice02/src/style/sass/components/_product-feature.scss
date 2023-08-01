@@ -13,7 +13,7 @@
   .survey-feature p,
   .ad-feature p {
       width: 308px;
-      color: var(--River-Bed);
+      color: var(--river-bed);
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
@@ -23,19 +23,23 @@
   }
   
   .survey-feature {
-    background-color: #F6F3FC;
-    border-bottom: 8px solid var(--Violet);
     width: 368px;
     height: 128px;
     margin-top: 20px;
-    border-radius: 8px 8px 0px 0px;
     text-align: center;
   }
-  
+
+  .survey-feature:hover,
+  .ad-feature:hover {
+    background-color: #F6F3FC;
+    border-bottom: 8px solid var(--violet);
+    border-radius: 8px 8px 0px 0px;
+  }
+
   .survey-feature h4,
   .ad-feature h4 {
       font-size: 18px;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Inter';
       font-weight: 600;
       line-height: 26px;
       margin-bottom: 1px;
@@ -44,6 +48,11 @@
   .ad-feature {
     text-align: center;
     margin-top: 20px;
+    width: 368px;
+    height: 128px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
   
   .line {
@@ -54,23 +63,20 @@
   .product__content {
     flex-direction: column;
     gap: 22px;
-    margin-left: 0px;
+    margin-right: 21px;
     display: flex;
     margin-top: -3px;
 }
 
 .survey-feature p,
 .ad-feature p {
-    color: var(--River-Bed);
+    color: var(--river-bed);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
 .survey-feature {
-    background-color: #F6F3FC;
-    border-bottom: none;
-    border-left: 8px solid var(--Violet);
     width: 368px;
     height: 128px;
     border-radius: 0px 8px 8px 0px;
@@ -81,7 +87,16 @@
 .ad-feature {
   text-align: left;
   margin-top: 0px;
-  width: 385px;
+  width: 368px;
+  height: 128px;
+}
+
+.survey-feature:hover,
+.ad-feature:hover {
+  background-color: #F6F3FC;
+  border-left: 8px solid var(--violet);
+  border-bottom: none;
+  border-radius: 0px 8px 8px 0px;
 }
 
 .ad-feature p,
@@ -91,7 +106,7 @@
 
 .ad-feature p,
 .ad-feature h4 {
-    margin-left: 36px;
+    margin-left: 23px;
     margin-top: 2px;
 }
 
@@ -113,7 +128,7 @@
 .survey-feature h4,
 .ad-feature h4 {
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-weight: 600;
     line-height: 26px;
     margin-bottom: 1px;
@@ -123,6 +138,5 @@
     margin-top: 23px;
     margin-left: 17px;
 }
-
 
 }

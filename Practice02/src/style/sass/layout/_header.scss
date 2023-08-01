@@ -51,7 +51,7 @@
   height: 8px;
   color: #4E5A65;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-size: 8px;
   font-style: normal;
   font-weight: 400;
@@ -165,7 +165,7 @@
   .header-button {
       display: block;
       background-color: #ECE5FF;
-      color: var(--Violet);
+      color: var(--violet);
       margin-right: 14px;
       padding: 10px 29px;
       font-size: 16px;
@@ -183,7 +183,6 @@
 @media only screen and (min-width: 1400px) {
   .header {
     width: 81%;
-    margin-left: 70px;
   }
   .header__logo {
     width: 92px;

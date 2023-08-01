@@ -15,27 +15,19 @@
   }
   
   .about-us__content p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     width: 69%;
-    color: var(--River-Bed);
+    color: var(--river-bed);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
   }
-  
-  .baseline {
-    display: none;
-  }
-  
-  .baseline--visibility-hidden {
-    display: none;
-  }
-  
+    
   .name,
   .job {
-      font-family: 'Inter', sans-serif;
-      color: var(--River-Bed);
+      font-family: 'Inter';
+      color: var(--river-bed);
       text-align: center;  
       line-height: 13px;   
       font-size: 13px;
@@ -50,15 +42,12 @@
     font-weight: 400;
     margin-top: 8px;
   }
-  
-  .customer-infor {
-    align-items: center;
-    margin-right: 2px;
-    display: flex;
+  .customer-pro {
+    display:  flex;
     flex-direction: column;
-    margin-top: 40px;
+    align-items: center;
+    margin-top: 20px;
   }
-  
   .customer-pro-hidden {
     display: none;
   }
@@ -129,29 +118,9 @@
       margin-top: 28px;
       margin-left: 10px;
       display: flex;
+      margin-bottom: 30px;
   }
     
-    .customer-pro {
-      cursor: pointer;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      display: flex;
-      margin-right: 15px;
-      margin-bottom: 28px;
-  }
-    .customer-infor {
-      margin-right: 2px;
-      display: flex;
-      flex-direction: row;     
-    }
-    .customer-pro-hidden {
-      display: none;
-    }
-    .customer-infor {
-       margin-top: 25px;
-    }
-
     .customer-ava {
       margin-bottom: 15px;
     }
@@ -160,26 +129,32 @@
   @media only screen and (min-width: 1400px) {
      .baseline {
       display: block;
-      width: 264px;
       height: 4px;
       margin-bottom: 10px;
       margin-left: 40px;
     }
+
     .customer-pro {
+      flex-direction: row;
       margin-bottom: 15px;
-      margin-right: 50px;
+      height: 109px;
+      margin-top: 9px;
     }
-    .baseline--visibility-hidden {
-      display: block;
-      visibility: hidden;
-    }
+
     .customer-pro-hidden {
-      display: block;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 7px;
     }
+
+    .customer-pro-hidden:hover,
+    .customer-pro:hover {
+      border-top: 4px solid var(--second-color);
+      width: 250px;
+    }
+  
     .customer-ava {
       margin-top: 10px;
-    }
-    .customer-infor {
-      margin-top: 12px;
     }
   }
