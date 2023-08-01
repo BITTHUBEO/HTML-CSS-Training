@@ -4,6 +4,8 @@
     align-items: center;
     display: flex;
     gap: 40px;
+    margin-top: 19px;
+    margin-right: 5px;
   }
   
   .about-us__content h2 {
@@ -21,7 +23,8 @@
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 32px;
+    margin-right: 42px;
   }
     
   .name,
@@ -31,7 +34,7 @@
       text-align: center;  
       line-height: 13px;   
       font-size: 13px;
-      margin-top: 9px;
+      margin-top: 5px;
   }
   
   .name {
@@ -41,6 +44,10 @@
   .job {
     font-weight: 400;
     margin-top: 8px;
+  }
+
+  .customers-feedbacks {
+    margin-top: 20px;
   }
   .customer-pro {
     display:  flex;
@@ -156,5 +163,25 @@
   
     .customer-ava {
       margin-top: 10px;
+    }
+
+    .about-us__content h2 {
+      margin-top: 38px;
+      margin-right: 65px;
+    }
+
+    .about-us__content p {
+      margin-left: 5px;
+    }
+
+    .customers-feedbacks {
+      gap: 143px;
+      margin-top: 10px;
+      margin-left: 3px;
+      margin-right: 55px;
+  }
+    .name-job {
+        margin-left: 16px;
+        margin-top: 0px;
     }
   }

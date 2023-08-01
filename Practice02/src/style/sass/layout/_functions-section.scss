@@ -1,3 +1,12 @@
+
+.functions {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+
 h2 {
   font-family: 'Inter';
   font-weight: 600;
@@ -9,16 +18,10 @@ h2 {
   text-align: center;
 }
 
-.functions {
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  margin-bottom: 30px;
-}
 
 .functions__headline {
   margin-top: 56px;
+  margin-bottom: 18px;
 }
 
 .btn-view {
@@ -33,9 +36,11 @@ h2 {
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
-  margin-top: 40px;
+  margin-top: 64px;
 }
-
+.btn-view:hover {
+  background-color: var(--perano);
+}
 
 @media only screen and (min-width: 992px) {
   h2 {
@@ -63,4 +68,9 @@ h2 {
       display: none;
   }
 
+}
+@media only screen and (min-width: 992px) {
+  .functions__headline {
+    margin-right: 66px;
+}
 }

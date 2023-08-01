@@ -1,8 +1,9 @@
 .banner__logo {
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: 13px;
     display: flex;
     gap: 2px;
+    margin-left: 19px;
   }
   
   .gg {
@@ -18,6 +19,7 @@
   .fb {
     width: 53.17px;
     height: 10.902px;
+    margin-right: 22px;
   }
   
   .hub {
@@ -29,6 +31,12 @@
     display: none;
   }
   
+  .gg,
+  .air,
+  .hub {
+      margin-top: 2px;
+  }
+
   .gg img,
   .air img,
   .fb img,
@@ -85,5 +93,10 @@
   .hub,
   .slack img {
     cursor: pointer;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .banner__logo {
+    margin-left: 0px;
   }
 }

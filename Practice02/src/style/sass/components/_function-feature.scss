@@ -1,4 +1,14 @@
-.feature-img img {
+  
+  .feature {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    width: 65%;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .feature-img img {
     width: 48px;
     height: 48px;
     object-fit: fill;
@@ -7,15 +17,7 @@
 .feature-img {
     margin-top: 20px;
 }
-  
-  .feature {
-    flex-wrap: wrap;
-    display: flex;
-    text-align: center;
-    width: 100%;
-    justify-content: center;
-    gap: 10px;
-  }
+
   
   .feature__descripstion__hidden {
     display: none;
@@ -72,6 +74,7 @@
       margin-bottom: 3px;
       display: flex;
       gap: 0px;
+      width: 100%;
     }
     
     .feature__descripstion,
@@ -85,6 +88,7 @@
     
     .feature__descripstion {
       margin-top: 10px;
+      margin-bottom: 14px;
     }
 
     .feature__descripstion h4,
@@ -113,6 +117,7 @@
   @media only screen and (min-width: 1400px) {
     .feature {
       width: 93%;
+      margin-top: 15px;
     }
     .feature__descripstion p,
     .feature__descripstion__hidden p {

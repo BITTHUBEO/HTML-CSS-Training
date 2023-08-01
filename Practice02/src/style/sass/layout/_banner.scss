@@ -20,6 +20,7 @@
   width: 100%;
   height: 80px;
   display: flex;
+  margin-top: 10px;
 }
 
 .banner__save {
@@ -58,10 +59,12 @@
   align-items: center;
   height: 218px;
   display: flex;
+  margin-top: 14px;
+  margin-right: 5px;
 }
 
 .banner__heading {
-  width: 65%;
+  width: 71%;
   color: var(--Limed-Spruce);
   text-align: center;
   font-family: 'Inter';
@@ -79,14 +82,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  width: 72%;
+  width: 78%;
+  margin-top: 15px;
 }
 
 .banner__box {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
+  margin-top: 10px;
 }
 
 .text-box {
@@ -94,7 +99,7 @@
   border: 1px solid #E1E5EA;
   border-radius: 4px;
   width: 314px;
-  height: 52px;
+  height: 50px;
 }
 
 input[type=text] {
@@ -110,7 +115,7 @@ input[type=text] {
   border: 1px;
   border-radius: 4px;
   width: 318px;
-  height: 52px;
+  height: 54px;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -118,15 +123,16 @@ input[type=text] {
 
 .submit:hover,
 .chart-button:hover {
-  background-color: var(--Perano);
+  background-color: var(--perano);
 }
 
 .graph {
   justify-content: center;
-  width: 384px;
-  height: 273.288px;
+  width: 400px;
+  height: 308.288px;
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-right: 17px;
 }
 
 .graph-img {
@@ -139,7 +145,7 @@ input[type=text] {
   justify-content: center;
   width: 414px;
   display: flex;
-  margin-top: 56px;
+  margin-top: 40px;
 }
 
 .banner__media-logo p {
@@ -164,6 +170,15 @@ input[type=text] {
   line-height: 11px;
 }
 
+::placeholder {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #97A5B5;
+  padding: 18px 61px;
+}
+
 @media only screen and (min-width: 576px) {
   .banner {
     background-image: url(../../../../Practice02/src/assets/image/bgbanner.png);
@@ -183,7 +198,6 @@ input[type=text] {
     margin-top: 16px;
 }
 }
-
 
 @media only screen and (min-width: 992px) {
   .banner {
@@ -282,8 +296,8 @@ input[type=text] {
       justify-content: center;
       display: inline;
       height: 60px;
-      margin-left: 0px;
-      margin-top: -9px;
+      margin-right: 53px;
+      margin-top: -6px;
       margin-bottom: -9px;
   }
 
@@ -291,8 +305,8 @@ input[type=text] {
       background-color: var(--primary-color);
       border: 1px solid #E1E5EA;
       border-radius: 4px 0px 0 4px;
-      width: 242px;
-      height: 50px;
+      width: 291px;
+      height: 48px;
   }
 
   .submit {
@@ -304,7 +318,7 @@ input[type=text] {
       border: 1px;
       border-radius: 0 4px 4px 0;
       width: 165px;
-      height: 55px;
+      height: 52px;
       font-size: 16px;
       font-weight: 500;
       line-height: 16px;
@@ -337,11 +351,33 @@ input[type=text] {
       font-size: 16px;
       line-height: 16px;
   }
+
+  ::placeholder {
+    padding: 18px 99px 18px 2px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
+  .banner__content {
+    margin-top: 0px;
+  }
   .banner__media-logo {
-      width: 69%;
+      width: 91%;
+      margin-right: 56px;
+  }
+  .banner__discount {
+    height: 73px;
+    margin-right: 60px;
+  }
+  .banner__heading {
+    margin-right: 40px;
+  }
+  .banner__simple-text {
+    margin-right: 53px;
+  }
+  .graph {
+    margin-right: 54px;
+    margin-top: 10px;
   }
 }
   
