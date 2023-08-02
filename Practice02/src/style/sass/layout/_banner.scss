@@ -9,9 +9,7 @@
 
 .banner__sign-up {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  @extend %flex-center;
 }
 
 .banner__discount {
@@ -28,6 +26,7 @@
 }
 
 .banner__get-acc {
+  @extend %flex-center;
   width: 160px;
   height: 21px;
   background-color: #F2F9EB;
@@ -36,9 +35,6 @@
   text-align: center;
   cursor: pointer;
   border-radius: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .banner__get-acc a {
@@ -55,10 +51,8 @@
 
 .banner__content {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
   height: 218px;
-  display: flex;
   margin-top: 14px;
   margin-right: 5px;
 }
@@ -181,22 +175,25 @@ input[type=text] {
 
 @media only screen and (min-width: 576px) {
   .banner {
-    background-image: url(../../../../Practice02/src/assets/image/bgbanner.png);
-    background-size: 100% 60%;
+      background-image: url(../../../../Practice02/src/assets/image/bgbanner.png);
+      background-size: 100% 60%;
   }
+
   .banner__heading {
-    font-size: 42px;
-    width: 86%;
-    line-height: 50px;
+      font-size: 42px;
+      width: 86%;
+      line-height: 50px;
   }
+
   .graph {
-    width: 472px;
-    height: 361.288px;
+      width: 472px;
+      height: 361.288px;
   }
+
   .banner__simple-text {
-    width: 79%;
-    margin-top: 16px;
-}
+      width: 79%;
+      margin-top: 16px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -228,13 +225,13 @@ input[type=text] {
   }
 
   .banner__discount {
-    justify-content: center;
-    align-items: flex-end;
-    width: 69%;
-    height: 79px;
-    margin-left: 10px;
-    display: flex;
-}
+      justify-content: center;
+      align-items: flex-end;
+      width: 69%;
+      height: 79px;
+      margin-left: 10px;
+      display: flex;
+  }
 
   .banner__get-acc a {
       font-family: 'Inter';
@@ -245,13 +242,13 @@ input[type=text] {
       text-decoration: none;
       color: var(--Limed-Spruce);
   }
-  
+
   .banner__get-acc p {
-    padding-bottom: 3px;
+      padding-bottom: 3px;
   }
 
   .banner__save p {
-      padding: 7px 0px 0px 3px;
+      padding: 5px 0px 0px 3px;
   }
 
   .banner__get-acc p:hover {
@@ -353,31 +350,35 @@ input[type=text] {
   }
 
   ::placeholder {
-    padding: 18px 99px 18px 2px;
+      padding: 18px 99px 18px 2px;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   .banner__content {
-    margin-top: 0px;
+      margin-top: 0px;
   }
+
   .banner__media-logo {
       width: 91%;
       margin-right: 56px;
   }
+
   .banner__discount {
-    height: 73px;
-    margin-right: 60px;
+      height: 73px;
+      margin-right: 60px;
   }
+
   .banner__heading {
-    margin-right: 40px;
+      margin-right: 40px;
   }
+
   .banner__simple-text {
-    margin-right: 53px;
+      margin-right: 53px;
   }
+
   .graph {
-    margin-right: 54px;
-    margin-top: 10px;
+      margin-right: 54px;
+      margin-top: 10px;
   }
 }
-  

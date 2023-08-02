@@ -1,8 +1,6 @@
 .charts {
+  @extend %flex-center;
   background-color: #fbfafe;;
-  justify-content: center;
-  align-items: center;
-  display: flex;
   flex-direction: column;
   height: 538px;
   margin-top: 36px;
@@ -10,18 +8,16 @@
 }
 
 .chart__content {
-  flex-direction: column;
-  display: flex;
+  @extend %flex-column;
   order: 2;
   margin-bottom: 39px;
   gap: 16px;
-  align-items: center;
 }
 
 .chart-image {
   width: 384px;
   height: 260.648px;
-  margin-top: 35px;
+  margin-top: 61px;
   margin-left: 10px;
 }
 
@@ -38,7 +34,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
-  margin-top: 42px;
+  margin-top: 18px;
   margin-left: 8px;
 }
 
@@ -73,21 +69,19 @@
 
 @media only screen and (min-width: 576px) {
   .chart-image {
-    width: 400px;
-    height: 300.648px;
-    margin-top: 32px;
-    margin-left: 10px;
+      width: 400px;
+      height: 300.648px;
+      margin-top: 32px;
+      margin-left: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .charts {
       background-image: url(../../assets/image/bgcharts.png);
-      justify-content: center;
-      align-items: center;
+      @extend %flex-center;
       gap: 70px;
       height: 541px;
-      display: flex;
       flex-direction: row;
       width: 100%;
       margin: auto;
@@ -108,7 +102,7 @@
       width: 428.39px;
       height: 400.684px;
       /*width: 596.39px;
-      height: 404.684px;*/
+    height: 404.684px;*/
       margin-top: 0px;
       margin-left: 15px;
   }
@@ -145,5 +139,25 @@
       margin-top: 4px;
       margin-left: -10px;
       padding-bottom: 3px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .chart__content {
+      margin-right: 19px;
+      margin-top: 22px;
+  }
+
+  .chart-image {
+      margin-bottom: 5px;
+      margin-right: 55px;
+      width: 594.39px;
+      height: 406.684px;
+      margin-left: 0px;
+  }
+
+  .chart-button {
+      margin-top: 0px;
+      margin-bottom: 44px;
   }
 }

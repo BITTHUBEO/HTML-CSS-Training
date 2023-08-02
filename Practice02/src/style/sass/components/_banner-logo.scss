@@ -1,102 +1,103 @@
 .banner__logo {
-    justify-content: space-evenly;
-    margin-top: 13px;
-    display: flex;
-    gap: 2px;
-    margin-left: 19px;
-  }
-  
-  .gg {
-    width: 56px;
-    height: 18.278px;
-  }
-  
-  .air {
-    width: 56px;
-    height: 17.472px;
-  }
-  
-  .fb {
-    width: 53.17px;
-    height: 10.902px;
-    margin-right: 22px;
-  }
-  
-  .hub {
-    width: 56px;
-    height: 16.307px;   
-  }
-  
-  .slack {
-    display: none;
-  }
-  
-  .gg,
-  .air,
-  .hub {
-      margin-top: 2px;
-  }
+  justify-content: space-evenly;
+  margin-top: 13px;
+  display: flex;
+  gap: 2px;
+  margin-left: 19px;
+}
 
-  .gg img,
-  .air img,
-  .fb img,
-  .hub img {
-    cursor: pointer;
-    object-fit: fill;
-    width: 100%;
-    height: 100%;
-  }
-  
+.gg {
+  width: 56px;
+  height: 18.278px;
+}
+
+.air {
+  width: 56px;
+  height: 17.472px;
+}
+
+.fb {
+  width: 53.17px;
+  height: 10.902px;
+  margin-right: 22px;
+}
+
+.hub {
+  width: 56px;
+  height: 16.307px;
+}
+
+.slack {
+  display: none;
+}
+
+.gg,
+.air,
+.hub {
+  margin-top: 2px;
+}
+
+.gg img,
+.air img,
+.fb img,
+.hub img {
+  cursor: pointer;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (min-width: 992px) {
   .banner__logo {
-    justify-content: space-between;
-    margin-top: 23px;
-    display: flex;
-    align-items: center;
-    gap: 66px;
+      justify-content: space-between;
+      margin-top: 23px;
+      display: flex;
+      align-items: center;
+      gap: 66px;
   }
-  
+
   .gg {
-    width: 80px;
-    height: 26.11px;
-    margin-left: 11px;
+      width: 80px;
+      height: 26.11px;
+      margin-left: 11px;
   }
-  
+
   .air {
-    width: 80px;
-    height: 24.96px;
-    margin-right: 1px;
+      width: 80px;
+      height: 24.96px;
+      margin-right: 1px;
   }
-  
+
   .fb {
-    width: 77.17px;
-    height: 15.82px;
-    margin-right: 7px;
+      width: 77.17px;
+      height: 15.82px;
+      margin-right: 7px;
   }
-  
+
   .hub {
-    width: 80px;
-    height: 23.3px; 
-    margin-right: 9px;
+      width: 80px;
+      height: 23.3px;
+      margin-right: 9px;
   }
-  
+
   .slack {
-    display: block;
-    width: 80px;
-    height: 20.24px;
-    margin-right: 9px;
+      display: block;
+      width: 80px;
+      height: 20.24px;
+      margin-right: 9px;
   }
-  
+
   .gg,
   .air,
   .fb,
   .hub,
   .slack img {
-    cursor: pointer;
+      cursor: pointer;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .banner__logo {
-    margin-left: 0px;
+      margin-left: 0px;
   }
 }
