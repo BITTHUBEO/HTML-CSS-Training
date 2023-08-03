@@ -1,0 +1,197 @@
+
+.about-us__content {
+  @extend %flex-center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 19px;
+  margin-right: 5px;
+}
+
+.about-us__content h2 {
+  text-align: center;
+  width: 190px;
+  color: #35414B;
+  text-align: center;
+  line-height: 24px;
+  font-family: 'Inter';
+  @extend %font-style;
+}
+
+.about-us__content p {
+  font-family: 'Inter';
+  width: 80%;
+  color: var(--river-bed);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-right: 30px;
+}
+
+.name,
+.job {
+  font-family: 'Inter';
+  color: var(--river-bed);
+  text-align: center;
+  line-height: 13px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.job {
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.customers-feedbacks {
+  margin-top: 20px;
+}
+
+.customer-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border-top: 4px solid transparent;
+  width: 250px;
+}
+
+.customer-pro-hidden {
+  display: none;
+  border-top: 4px solid transparent;
+  width: 250px;
+}
+
+@media only screen and (min-width: 576px) {
+  .about-us {
+      width: 61%;
+  }
+
+  .about-us__content p {
+      width: 444px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .about-us__content {
+      gap: 50px;
+      margin-top: 60px;
+  }
+
+  .about-us__content h2 {
+      text-align: center;
+      width: 394px;
+      height: 96px;
+      margin-top: 40px;
+      margin-right: 5px;
+      color: #35414B;
+      line-height: 48px;
+      font-weight: 600;
+      font-size: 40px;
+  }
+
+  .about-us__content p {
+      width: 543px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      margin-top: -2px;
+      margin-left: 25px;
+  }
+
+  .name-job {
+      margin-left: 16px;
+      margin-top: 6px;
+  }
+
+  .name,
+  .job {
+      line-height: 16px;
+      font-size: 16px;
+      margin-top: -9px;
+  }
+
+  .name {
+      font-weight: 600;
+      text-align: left;
+  }
+
+  .job {
+      font-weight: 400;
+      margin-top: 8px;
+      text-align: left;
+  }
+
+  .customers-feedbacks {
+      gap: 80px;
+      height: 126px;
+      margin-top: 28px;
+      margin-left: 10px;
+      display: flex;
+      margin-bottom: 30px;
+  }
+
+  .customer-ava {
+      margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .baseline {
+      display: block;
+      height: 4px;
+      margin-bottom: 10px;
+      margin-left: 40px;
+  }
+
+  .customer-pro {
+      flex-direction: row;
+      margin-bottom: 15px;
+      height: 109px;
+      margin-top: 9px;
+  }
+
+  .customer-pro-hidden {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 7px;
+  }
+
+  .customer-pro-hidden:hover,
+  .customer-pro:hover {
+      border-top: 4px solid var(--second-color);
+      width: 250px;
+  }
+
+  .customer-ava {
+      margin-top: 4px;
+  }
+
+  .about-us__content h2 {
+      margin-top: 37px;
+      margin-right: 61px;
+  }
+
+  .about-us__content p {
+      margin-left: 49px;
+  }
+
+  .customers-feedbacks {
+      gap: 86px;
+      margin-top: 10px;
+      margin-left: 3px;
+      margin-right: 55px;
+  }
+
+  .name-job {
+      margin-left: 17px;
+      margin-top: 0px;
+      margin-bottom: 3px;
+  }
+}

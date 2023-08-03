@@ -1,15 +1,18 @@
-::placeholder {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    color: #97A5B5;
-    padding: 18px 61px;
+%flex-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+%font-style {
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 18px;
 }
 
-@media only screen and (min-width: 992px) {
-    ::placeholder {
-        font-family: 'Inter', sans-serif;
-        padding: 18px 99px 18px 2px;
-    }
-}
+%flex-column {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }

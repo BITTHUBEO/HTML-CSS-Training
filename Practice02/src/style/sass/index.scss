@@ -1,4 +1,3 @@
-
 // Abstracts
 @import './abstracts/placeholder';
 @import './abstracts/variables';
@@ -9,21 +8,21 @@
 
 
 // Components
-@import './components/customer-feedbacks';
-@import './components/functions';
+@import './components/about-us-content';
+@import './components/function-feature';
 @import './components/product-feature';
-@import './components/social-icon';
+@import './components/banner-logo';
 
 
 // Layout
 @import './layout/header';
 @import './layout/banner';
-@import './layout/product-section';
-@import './layout/functions-section';
-@import './layout/chart-section';
-@import './layout/about-us-section';
 @import './layout/footer';
 
 
 // Pages
-@import './pages/landingpage';
+@import './pages/landingpage/landingpage';
+@import './pages/landingpage/product-section';
+@import './pages/landingpage/functions-section';
+@import './pages/landingpage/chart-section';
+@import './pages/landingpage/about-us-section';
