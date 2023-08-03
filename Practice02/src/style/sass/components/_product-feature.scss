@@ -46,6 +46,10 @@
   border-bottom: 8px solid transparent;
 }
 
+.ad-feature::after {
+  border-bottom: 8px solid transparent;
+}
+
 .line {
   width: 368px;
 }
@@ -69,15 +73,20 @@
       text-align: left;
       margin-top: 0px;
       width: 368px;
-      height: 128px;
-      border-left: 8px solid transparent;
+      height: 128px;          
+      border-left: 8px solid transparent; 
+      border-bottom: none;
+  }
+
+  .ad-feature::after {
+    border-bottom: 8px solid transparent; 
   }
 
   .ad-feature:hover {
       background-color: #F6F3FC;
-      border-bottom: 8px solid transparent;
-      border-left: 8px solid var(--violet);
       border-radius: 0px 8px 8px 0px;
+      border-left: 8px solid var(--violet);
+      border-bottom: none;
   }
 
   .ad-feature h4 {
@@ -98,20 +107,17 @@
 
 @media only screen and (min-width: 1400px) {
   .product__content {
-      margin-right: 16px;
-      margin-top: 24px;
+      margin-right: 56px;
+      margin-top: 38px;
   }
 
   .ad-feature p {
-      margin-left: 28px;
+      margin-left: 25px;
+      margin-bottom: 3px;
   }
 
   .ad-feature h4 {
-      margin-left: 29px;
+      margin-left: 25px;
       margin-top: 0px;
   }  
-  .product__content {
-      margin-right: 56px;
-      margin-top: 28px;
-  }
 }
