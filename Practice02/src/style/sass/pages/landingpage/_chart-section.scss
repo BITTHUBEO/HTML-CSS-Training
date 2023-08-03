@@ -3,8 +3,9 @@
   background-color: #fbfafe;;
   flex-direction: column;
   height: 538px;
-  margin-top: 36px;
+  margin-top: 27px;
   margin-right: 6px;
+  gap: 14px
 }
 
 .chart__content {
@@ -41,7 +42,7 @@
 .chart__content p {
   font-family: 'Inter';
   color: var(--river-bed);
-  width: 73%;
+  width: 75%;
   font-size: 16px;
   color: #4E5A65;
   text-align: center;

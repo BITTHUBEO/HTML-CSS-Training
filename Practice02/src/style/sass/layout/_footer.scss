@@ -57,6 +57,9 @@ footer {
     margin-left: 30px;
     margin-top: 18px;
     margin-bottom: 20px;
+    object-fit: fill;
+    width: 100px;
+    height: 100px;
 }
 
 .vector {
@@ -149,7 +152,6 @@ footer {
     .app {
         display: flex;
         flex-direction: column;
-        cursor: pointer;
         justify-content: center;
         gap: 20px;
     }
@@ -190,11 +192,6 @@ footer {
     .line-footer {
         width: 100%;
         margin-top: 5px;
-    }
-
-    .footer__gg-play:hover,
-    .footer__app-store:hover {
-        transform: scale(1.1);
     }
 
     .footer__copy-right {
