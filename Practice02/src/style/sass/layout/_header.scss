@@ -15,6 +15,11 @@
   cursor: pointer;
 }
 
+.header__logo img {
+  width: 77px;
+  height: 20px;
+}
+
 .header__nav {
   display: none;
   margin-left: 32px;
@@ -113,7 +118,7 @@
   .header__logo img {
       object-fit: fill;
       width: 90px;
-      height: auto;
+      height: 20px;
   }
 
   .header__nav {
