@@ -36,6 +36,11 @@ h3 {
   flex-direction: column;
 }
 
+.install-app img {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (min-width: 576px) {
   .install-section {
       width: 100%;
