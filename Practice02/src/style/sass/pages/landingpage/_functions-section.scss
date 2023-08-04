@@ -27,12 +27,14 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
-  margin-top: 64px;
+  margin-top: 71px;
+
+  &:hover {
+    background-color: var(--perano);
+  }
 }
 
-.btn-view:hover {
-  background-color: var(--perano);
-}
+
 
 @media only screen and (min-width: 992px) {
   .functions {

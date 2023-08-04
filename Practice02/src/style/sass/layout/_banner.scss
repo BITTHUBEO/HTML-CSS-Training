@@ -104,6 +104,7 @@
       font-style: normal;
       font-weight: 400;
       line-height: 11px;
+      margin-right: 4px;
   }
 
   &__media-logo b {
@@ -116,7 +117,6 @@
       font-weight: 700;
       line-height: 11px;
   }
-
 }
 
 .text-box {
@@ -153,11 +153,11 @@ input[type=text] {
 
 .graph {
   justify-content: center;
-  width: 400px;
+  width: 424px;
   height: 308.288px;
   display: flex;
   margin-top: 15px;
-  margin-right: 17px;
+  margin-right: 0px;
 }
 
 .graph-img {
