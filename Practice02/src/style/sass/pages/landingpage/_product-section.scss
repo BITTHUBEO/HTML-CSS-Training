@@ -1,7 +1,7 @@
 .product {
   @extend %flex-center;
   flex-direction: column;
-  background-color: #FBFAFE;
+  background-color: var(--big-background);
   height: 874px;
 }
 
