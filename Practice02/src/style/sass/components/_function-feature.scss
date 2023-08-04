@@ -116,16 +116,17 @@
   .feature__descripstion p,
   .feature__descripstion__hidden p {
       width: 102%;
+      margin-top: 8px;
   }
 
   .feature__descripstion {
-    margin-top: 12px;
-    margin-bottom: 14px;
-    margin-right: 21px;
+      margin-top: 12px;
+      margin-bottom: 14px;
+      margin-right: 21px;
   }
 
   .feature__descripstion__hidden {
-    margin-top: 16px;
-    margin-right: 18px;
-}
+      margin-top: 16px;
+      margin-right: 18px;
+  }
 }

@@ -1,5 +1,5 @@
 .product__content {
-  flex-direction: column;  
+  flex-direction: column;
   @extend %flex-center;
   margin-left: 0px;
   margin-bottom: 11px;
@@ -78,13 +78,13 @@
       text-align: left;
       margin-top: 0px;
       width: 368px;
-      height: 128px;          
-      border-left: 8px solid transparent; 
+      height: 128px;
+      border-left: 8px solid transparent;
       border-bottom: none;
   }
 
   .ad-feature::after {
-    border-bottom: 8px solid transparent; 
+      border-bottom: 8px solid transparent;
   }
 
   .ad-feature:hover {
@@ -124,5 +124,5 @@
   .ad-feature h4 {
       margin-left: 25px;
       margin-top: 0px;
-  }  
+  }
 }
