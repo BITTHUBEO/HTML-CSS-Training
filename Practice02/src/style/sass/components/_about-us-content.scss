@@ -4,16 +4,16 @@
   gap: 40px;
   margin-top: 25px;
   margin-right: 5px;
-}
 
-.about-us__content h2 {
-  text-align: center;
-  width: 190px;
-  color: #35414B;
-  text-align: center;
-  line-height: 24px;
-  font-family: 'Inter';
-  @extend %font-style;
+  h2 {
+      text-align: center;
+      width: 190px;
+      color: #35414B;
+      text-align: center;
+      line-height: 24px;
+      font-family: 'Inter';
+      @extend %font-style;
+  }
 }
 
 .about-us__content p {
