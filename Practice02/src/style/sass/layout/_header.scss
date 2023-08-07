@@ -1,231 +1,232 @@
 .header {
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 54px;
-  margin-top: 13px;
-  display: flex;
-
-  &__logo {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+    margin-top: 13px;
+    display: flex;
+  
+    &__logo {
       width: 20px;
-      height: 15px;
+      height: auto;
       margin-left: 15px;
-      margin-top: 6px;
+      padding-top: 13px;
       cursor: pointer;
-  }
-
-  &__logo img {
+    }
+  
+    &__logo img {
       width: 77px;
       height: auto;
-  }
-
-  &__nav {
+    }
+  
+    &__nav {
       display: none;
       margin-left: 32px;
       margin-top: 10px;
-  }
-
-  &__nav-list {
+    }
+  
+    &__nav-list {
       display: none;
-  }
-
-  &__nav-list img {
+    }
+  
+    &__nav-list img {
       width: 8px;
       height: 8px;
-  }
-
-  &__login-get-free a {
+    }
+  
+    &__login-get-free a {
       display: none;
-  }
-
-  &-button {
+    }
+  
+    &-button {
       display: none;
+    }
   }
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-
-  &-icon {
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+  
+    &-icon {
       margin-top: 22px;
       margin-right: 9px;
       background: none;
       border: none;
       cursor: pointer;
-  }
-
-  p {
+    }
+  
+    p {
       width: 24px;
-      height: 8px;
-      color: #4E5A65;
+      height: auto;
+      color: #4e5a65;
       text-align: center;
-      font-family: 'Inter';
+      font-family: "Inter";
       font-size: 8px;
       font-style: normal;
       font-weight: 400;
       line-height: 8px;
       margin-left: 6px;
       margin-top: 2px;
+    }
   }
-}
-
-
-@media only screen and (min-width: 576px) {
-  .header {
+  
+  @media only screen and (min-width: 576px) {
+    .header {
       width: 100%;
-
+  
       &__logo {
-          margin-top: 10px;
+        margin-top: 10px;
       }
-
+  
       &__logo img {
-          object-fit: fill;
-          width: 110px;
-          height: auto;
+        object-fit: fill;
+        width: 110px;
+        height: auto;
       }
-  }
-
-  .menu-icon {
+    }
+  
+    .menu-icon {
       margin-top: 30px;
-  }
-
-  .menu-icon img {
+    }
+  
+    .menu-icon img {
       width: 28px;
-  }
-
-  .menu p {
+    }
+  
+    .menu p {
       font-size: 10px;
+    }
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .header {
+  
+  @media only screen and (min-width: 992px) {
+    .header {
       justify-content: space-evenly;
       align-items: center;
       width: 87%;
       height: 158px;
       margin: auto;
       display: flex;
-
+  
       &__logo {
-          width: 92px;
-          height: 24px;
-          margin-left: 20px;
-          margin-top: 0px;
+        width: 92px;
+        height: 24px;
+        margin-left: 20px;
+        margin-top: 0px;
       }
-
+  
       &__logo img {
-          object-fit: fill;
-          width: 90px;
-          height: 20px;
+        object-fit: fill;
+        width: 90px;
+        height: 20px;
       }
-
+  
       &__nav {
+        display: block;
+        margin-left: 37px;
+        margin-top: 10px;
+  
+        &-list {
           display: block;
-          margin-left: 37px;
-          margin-top: 10px;
-
-          &-list {
-              display: block;
-              align-items: center;
-              gap: 23px;
-              margin-bottom: 6px;
-              margin-left: 49px;
-              display: flex;
-          }
-
-          &-list li a {
-              color: var(--Limed-Spruce);
-              opacity: 0.7;
-              cursor: pointer;
-              margin-top: 8px;
-              margin-right: 6px;
-              font-size: 16px;
-              font-weight: 400;
-              line-height: 16px;
-              text-decoration: none;
-          }
-      }
-
-      &__login-get-free {
-          margin-right: 5px;
-          margin-bottom: 0px;
+          align-items: center;
+          gap: 23px;
+          margin-bottom: 6px;
+          margin-left: 49px;
           display: flex;
-      }
-
-      &__login-get-free a {
-          display: block;
+        }
+  
+        &-list li a {
           color: var(--Limed-Spruce);
           opacity: 0.7;
-          margin-right: 19px;
+          cursor: pointer;
+          margin-top: 8px;
+          margin-right: 6px;
           font-size: 16px;
           font-weight: 400;
           line-height: 16px;
           text-decoration: none;
-          margin-top: 18px;
+        }
       }
-
-      &__login-get-free a:hover {
-          color: var(--black);
-      }
-
-      &-button:hover {
-          background-color: var(--perano);
-      }
-
-      &-button {
-          display: block;
-          background-color: #ECE5FF;
-          color: var(--violet);
-          margin-right: 14px;
-          padding: 19px 29px;
-          font-size: 16px;
-          font-weight: 500;
-          line-height: 16px;
-          border: none;
-          height: 48px;
-          border-radius: 4px;
-          cursor: pointer;
-      }
-  }
-
-
-  nav li:hover {
-      color: black;
-  }
-
-  .menu {
-      display: none;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .header {
-      width: 100%;
-      height: 152px;
-
-      &__logo {
-          width: 92px;
-          height: 25px;
-          margin-left: 6px;
-          margin-top: 3px;
-      }
-
-      &__nav {
-          margin-left: 51px;
-      }
-
-      &__nav-list {
-          margin-bottom: 6px;
-          margin-left: 49px;
-          gap: 23px;
-      }
-
+  
       &__login-get-free {
-          margin-right: 42px;
-          margin-bottom: 0px;
-          display: flex;
+        margin-right: 5px;
+        margin-bottom: 0px;
+        display: flex;
       }
+  
+      &__login-get-free a {
+        display: block;
+        color: var(--Limed-Spruce);
+        opacity: 0.7;
+        margin-right: 19px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        text-decoration: none;
+        margin-top: 18px;
+      }
+  
+      &__login-get-free a:hover {
+        color: var(--black);
+      }
+  
+      &-button:hover {
+        background-color: var(--perano);
+      }
+  
+      &-button {
+        display: block;
+        background-color: #ece5ff;
+        color: var(--violet);
+        margin-right: 14px;
+        padding: 19px 29px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        border: none;
+        height: 48px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    }
+  
+    nav li:hover {
+      color: black;
+    }
+  
+    .menu {
+      display: none;
+    }
   }
-}
+  
+  @media only screen and (min-width: 1400px) {
+    .header {
+      width: 100%;
+      height: auto;
+      padding-top: 26px;
+      padding-bottom: 26px;
+  
+      &__logo {
+        width: 92px;
+        height: 25px;
+        margin-left: 33px;
+        padding-top: 2px;
+      }
+  
+      &__nav {
+        margin-left: 50px;
+      }
+  
+      &__nav-list {
+        margin-bottom: 6px;
+        margin-left: 49px;
+        gap: 23px;
+      }
+  
+      &__login-get-free {
+        margin-right: 18px;
+        margin-bottom: 0px;
+        display: flex;
+      }
+    }
+  }
+  

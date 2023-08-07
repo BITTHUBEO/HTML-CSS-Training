@@ -7,31 +7,10 @@
   margin-top: 23px;
 }
 
-.ad-feature p {
-  width: 308px;
-  color: var(--river-bed);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  font-family: "Inter", sans-serif;
-  margin-left: 31px;
-  margin-top: 4px;
-}
-
 .ad-feature:hover {
   background-color: #F6F3FC;
   border-bottom: 8px solid var(--violet);
   border-radius: 8px 8px 0px 0px;
-}
-
-.ad-feature h4 {
-  font-size: 18px;
-  font-family: 'Inter';
-  font-weight: 600;
-  line-height: 26px;
-  margin-bottom: 1px;
-  margin-top: 12px;
 }
 
 .ad-feature {
@@ -44,6 +23,28 @@
   flex-direction: column;
   margin-right: 1px;
   border-bottom: 8px solid transparent;
+  cursor: pointer;
+
+  h4 {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 1px;
+    margin-top: 12px;
+  }
+
+  p {
+    width: 308px;
+    color: var(--river-bed);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    margin-left: 31px;
+    margin-top: 4px;
+  }
 }
 
 .ad-feature::after {
@@ -67,13 +68,6 @@
       margin-top: -3px;
   }
 
-  .ad-feature p {
-      color: var(--river-bed);
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-  }
-
   .ad-feature {
       text-align: left;
       margin-top: 0px;
@@ -81,6 +75,23 @@
       height: 128px;
       border-left: 8px solid transparent;
       border-bottom: none;
+
+      p {
+        color: var(--river-bed);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+      h4 {
+        font-size: 18px;
+        font-family: 'Inter';
+        font-weight: 600;
+        line-height: 26px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+        margin-top: 2px;
+      }
   }
 
   .ad-feature::after {
@@ -94,25 +105,14 @@
       border-bottom: none;
   }
 
-  .ad-feature h4 {
-      font-size: 18px;
-      font-family: 'Inter';
-      font-weight: 600;
-      line-height: 26px;
-      margin-bottom: 0px;
-      margin-left: 30px;
-      margin-top: 2px;
-  }
-
   .line {
       margin-left: 17px;
   }
-
 }
 
 @media only screen and (min-width: 1400px) {
   .product__content {
-      margin-right: 56px;
+      margin-left: 11px;
       margin-top: 38px;
   }
 

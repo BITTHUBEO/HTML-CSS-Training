@@ -1,331 +1,332 @@
 .banner {
-  background-image: url(../../assets/image/bgbanner.png);
-  background-repeat: no-repeat;
-  background-size: 100% 86%;
-  border: 1px;
-  margin-top: -12px;
-  margin-bottom: 60px;
-
-  &__sign-up {
+    background-image: url(../../assets/image/bgbanner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 86%;
+    border: 1px;
+    margin-top: -12px;
+    margin-bottom: 60px;
+  
+    &__sign-up {
       flex-direction: column;
       @extend %flex-center;
-  }
-
-  &__discount {
+    }
+  
+    &__discount {
       justify-content: center;
       align-items: flex-end;
       width: 100%;
-      height: 80px;
+      height: auto;
       display: flex;
-      margin-top: 10px;
-  }
-
-  &__save {
+      padding-top: 70px;
+    }
+  
+    &__save {
       display: none;
-  }
-
-  &__get-acc {
+    }
+  
+    &__get-acc {
       @extend %flex-center;
       width: 160px;
-      height: 21px;
-      background-color: #F2F9EB;
+      height: auto;
+      padding-top: 1px;
+      background-color: #f2f9eb;
       color: var(--Limed-Spruce);
       text-decoration: none;
       text-align: center;
       cursor: pointer;
       border-radius: 100px;
-  }
-
-  &__get-acc a {
-      background-color: #F2F9EB;
-      color: #35414B;
-      font-family: 'Inter';
+    }
+  
+    &__get-acc a {
+      background-color: #f2f9eb;
+      color: #35414b;
+      font-family: "Inter";
       font-size: 13px;
       font-style: normal;
       font-weight: 400;
       line-height: 13px;
       color: var(--Limed-Spruce);
       text-decoration: none;
-  }
-
-  &__content {
+    }
+  
+    &__content {
       flex-direction: column;
       @extend %flex-center;
       height: 218px;
       margin-top: 14px;
       margin-right: 5px;
-  }
-
-  &__heading {
+    }
+  
+    &__heading {
       width: 71%;
       color: var(--Limed-Spruce);
       text-align: center;
-      font-family: 'Inter';
+      font-family: "Inter";
       font-size: 32px;
       font-style: normal;
       font-weight: 600;
       line-height: 40px;
-  }
-
-  &__simple-text {
+    }
+  
+    &__simple-text {
       text-align: center;
       color: var(--river-bed);
-      font-family: 'Inter';
+      font-family: "Inter";
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
       line-height: 24px;
       width: 78%;
       margin-top: 15px;
-  }
-
-  &__box {
+    }
+  
+    &__box {
       justify-content: center;
       display: flex;
       flex-direction: column;
       gap: 5px;
       margin-top: 10px;
-  }
-
-  &__media-logo {
+    }
+  
+    &__media-logo {
       flex-direction: column;
       justify-content: center;
       width: 414px;
       display: flex;
       margin-top: 40px;
-  }
-
-  &__media-logo p {
+    }
+  
+    &__media-logo p {
       text-align: center;
       color: var(--river-bed);
       letter-spacing: 0;
-      font-family: 'Inter';
+      font-family: "Inter";
       font-size: 11px;
       font-style: normal;
       font-weight: 400;
       line-height: 11px;
       margin-right: 4px;
-  }
-
-  &__media-logo b {
+    }
+  
+    &__media-logo b {
       letter-spacing: 0;
       text-align: center;
       color: var(--river-bed);
-      font-family: 'Inter';
+      font-family: "Inter";
       font-size: 11px;
       font-style: normal;
       font-weight: 700;
       line-height: 11px;
+    }
   }
-}
-
-.text-box {
-  background-color: var(--primary-color);
-  border: 1px solid #E1E5EA;
-  border-radius: 4px;
-  width: 314px;
-  height: 50px;
-}
-
-input[type=text] {
-  padding-left: 0px;
-}
-
-.submit {
-  background-color: var(--violet);
-  color: var(--primary-color);
-  cursor: pointer;
-  letter-spacing: 0;
-  text-align: center;
-  border: 1px;
-  border-radius: 4px;
-  width: 318px;
-  height: 54px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 16px;
-}
-
-.submit:hover,
-.chart-button:hover {
-  background-color: var(--perano);
-}
-
-.graph {
-  justify-content: center;
-  width: 424px;
-  height: 308.288px;
-  display: flex;
-  margin-top: 15px;
-  margin-right: 0px;
-}
-
-.graph-img {
-  width: 100%;
-  height: 100%;
-}
-
-::placeholder {
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #97A5B5;
-  padding: 18px 61px;
-}
-
-@media only screen and (min-width: 576px) {
-  .banner {
+  
+  .text-box {
+    background-color: var(--primary-color);
+    border: 1px solid #e1e5ea;
+    border-radius: 4px;
+    width: 254px;
+    height: 50px;
+  }
+  
+  input[type="text"] {
+    padding-left: 60px;
+  }
+  
+  .submit {
+    background-color: var(--violet);
+    color: var(--primary-color);
+    cursor: pointer;
+    letter-spacing: 0;
+    text-align: center;
+    border: 1px;
+    border-radius: 4px;
+    width: 318px;
+    height: 54px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  
+  .submit:hover,
+  .chart-button:hover {
+    background-color: var(--perano);
+  }
+  
+  .graph {
+    justify-content: center;
+    width: 424px;
+    height: 308.288px;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 0px;
+  }
+  
+  .graph-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  ::placeholder {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #97a5b5;
+    padding: 18px 0px;
+  }
+  
+  @media only screen and (min-width: 576px) {
+    .banner {
       background-image: url(../../../../Practice02/src/assets/image/bgbanner.png);
       background-size: 100% 60%;
-
+  
       &__heading {
-          font-size: 42px;
-          width: 86%;
-          line-height: 50px;
+        font-size: 42px;
+        width: 86%;
+        line-height: 50px;
       }
-
+  
       &__simple-text {
-          width: 79%;
-          margin-top: 16px;
+        width: 79%;
+        margin-top: 16px;
       }
-  }
-
-  .graph {
+    }
+  
+    .graph {
       width: 472px;
       height: 361.288px;
+    }
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .banner {
+  
+  @media only screen and (min-width: 992px) {
+    .banner {
       background-size: 100% 60%;
       width: 100%;
       margin: auto;
       margin-bottom: 100px;
       margin-top: -9px;
-
+  
       &__save {
-          display: block;
-          text-align: center;
-          color: var(--primary-color);
-          z-index: 1;
-          background-color: #81C43B;
-          border-radius: 100px;
-          width: 108px;
-          height: 33px;
-          position: sticky;
+        display: block;
+        text-align: center;
+        color: var(--primary-color);
+        z-index: 1;
+        background-color: #81c43b;
+        border-radius: 100px;
+        width: 108px;
+        height: 33px;
+        position: sticky;
       }
-
+  
       &__get-acc {
-          width: 198px;
-          height: 34px;
-          margin-left: -15px;
-          border-radius: 0px 100px 100px 0px;
+        width: 198px;
+        height: 34px;
+        margin-left: -15px;
+        border-radius: 0px 100px 100px 0px;
       }
-
+  
       &__discount {
-          justify-content: center;
-          align-items: flex-end;
-          width: 69%;
-          height: 79px;
-          margin-left: 10px;
-          display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 69%;
+        padding-top: 48px;
+        margin-left: 10px;
+        display: flex;
       }
-
+  
       &__get-acc a {
-          font-family: 'Inter';
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 16px;
-          text-decoration: none;
-          color: var(--Limed-Spruce);
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        text-decoration: none;
+        color: var(--Limed-Spruce);
       }
-
+  
       &__get-acc p {
-          padding-bottom: 3px;
+        padding-bottom: 3px;
       }
-
+  
       &__get-acc img {
-          width: 8px;
-          height: 9.901px;
+        width: 8px;
+        height: 9.901px;
       }
-
+  
       &__save p {
-          padding: 5px 0px 0px 3px;
+        padding: 5px 0px 0px 3px;
       }
-
+  
       &__get-acc p:hover {
-          width: 198px;
-          height: 24px;
-          border-radius: 0px 100px 100px 0px;
-          padding-top: 5px;
+        width: 198px;
+        height: 24px;
+        border-radius: 0px 100px 100px 0px;
+        padding-top: 5px;
       }
-
+  
       &__content {
-          gap: 23px;
-          height: 270px;
+        gap: 23px;
+        height: 270px;
       }
-
+  
       &__heading {
-          width: 786px;
-          height: 144px;
-          margin-right: 0px;
-          font-size: 67px;
-          font-weight: 700;
-          line-height: 70px;
+        width: 786px;
+        height: 144px;
+        margin-right: 0px;
+        font-size: 67px;
+        font-weight: 700;
+        line-height: 70px;
       }
-
+  
       &__simple-text {
-          color: var(--river-bed);
-          font-family: 'Inter';
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 25px;
-          width: 52%;
-          height: 48px;
-          margin-bottom: 5px;
-          margin-right: 34px;
-          margin-top: 0px;
+        color: var(--river-bed);
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        width: 50%;
+        height: 48px;
+        margin-bottom: 5px;
+        margin-right: 34px;
+        margin-top: 0px;
       }
-
+  
       &__box {
-          justify-content: center;
-          display: inline;
-          height: 60px;
-          margin-right: 53px;
-          margin-top: -6px;
-          margin-bottom: -9px;
+        justify-content: center;
+        display: inline;
+        height: 60px;
+        margin-right: 53px;
+        margin-top: -6px;
+        margin-bottom: -9px;
       }
-
+  
       &__media-logo {
-          width: 96%;
-          margin-top: 61px;
+        width: 96%;
+        margin-top: 61px;
       }
-
+  
       &__media-logo p {
-          font-size: 16px;
-          font-style: normal;
-          line-height: 16px;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 16px;
       }
-
+  
       &__media-logo b {
-          font-size: 16px;
-          line-height: 16px;
+        font-size: 16px;
+        line-height: 16px;
       }
-  }
-
-  .text-box {
+    }
+  
+    .text-box {
       background-color: var(--primary-color);
-      border: 1px solid #E1E5EA;
+      border: 1px solid #e1e5ea;
       border-radius: 4px 0px 0 4px;
       width: 291px;
-      height: 48px;
-  }
-
-  .submit {
+      height: 49px;
+    }
+  
+    .submit {
       background-color: var(--violet);
       color: var(--primary-color);
       cursor: pointer;
@@ -339,49 +340,51 @@ input[type=text] {
       font-weight: 500;
       line-height: 16px;
       margin-left: -5px;
-  }
-
-  input[type=text] {
+    }
+  
+    input[type="text"] {
       padding-left: 20px;
-  }
-
-  .graph {
+    }
+  
+    .graph {
       width: 1000px;
       height: 734.29px;
       margin-right: 2px;
       display: flex;
-  }
-
-  ::placeholder {
+    }
+  
+    ::placeholder {
       padding: 18px 99px 18px 2px;
+    }
   }
-}
-
-@media only screen and (min-width: 1400px) {
-  .banner__content {
+  
+  @media only screen and (min-width: 1400px) {
+    .banner__content {
       margin-top: 0px;
-  }
-
-  .banner__media-logo {
+    }
+  
+    .banner__media-logo {
       width: 91%;
-      margin-right: 56px;
-  }
-
-  .banner__discount {
-      height: 73px;
-      margin-right: 60px;
-  }
-
-  .banner__heading {
-      margin-right: 40px;
-  }
-
-  .banner__simple-text {
-      margin-right: 51px;
-  }
-
-  .graph {
-      margin-right: 54px;
+    }
+  
+    .banner__discount {
+      margin-left: 6px;
+    }
+  
+    .banner__heading {
+      margin-left: 13px;
+    }
+  
+    .banner__simple-text {
+      margin-left: 38px;
+    }
+  
+    .graph {
       margin-top: 8px;
+    }
+
+    .banner__box {
+        margin-right: 0px;
+    }
   }
-}
+  

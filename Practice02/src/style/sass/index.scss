@@ -1,28 +1,20 @@
 // Abstracts
-@import './abstracts/placeholder';
-@import './abstracts/variables';
+@import './abstracts/index';
+
 
 // Base
-@import './base/reset';
-@import './base/typo';
+@import './base/index';
+
 
 
 // Components
-@import './components/about-us-content';
-@import './components/function-feature';
-@import './components/product-feature';
-@import './components/banner-logo';
+@import './components/index';
 
 
 // Layout
-@import './layout/header';
-@import './layout/banner';
-@import './layout/footer';
+@import './layout/index';
+
 
 
 // Pages
-@import './pages/landingpage/landingpage';
-@import './pages/landingpage/product-section';
-@import './pages/landingpage/functions-section';
-@import './pages/landingpage/chart-section';
-@import './pages/landingpage/about-us-section';
+@import './pages/homepage';
