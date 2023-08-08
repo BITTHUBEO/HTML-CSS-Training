@@ -1,7 +1,7 @@
 .banner {
     background-image: url(../../assets/image/bgbanner.png);
     background-repeat: no-repeat;
-    background-size: 100% 86%;
+    background-size: 100% 17%;
     border: 1px;
     margin-top: -12px;
     margin-bottom: 60px;
@@ -200,7 +200,7 @@
   
   @media only screen and (min-width: 992px) {
     .banner {
-      background-size: 100% 60%;
+      background-size: 100% 19%;
       width: 100%;
       margin: auto;
       margin-bottom: 100px;
@@ -310,6 +310,7 @@
         font-size: 16px;
         font-style: normal;
         line-height: 16px;
+        padding-left: 87px;
       }
   
       &__media-logo b {

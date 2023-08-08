@@ -4,16 +4,14 @@
   display: flex;
   gap: 2px;
   margin-left: 19px;
-
-  
 }
 
-.gg {
+.google {
   width: 56px;
   height: 18.278px;
 }
 
-.air {
+.airbnb {
   width: 56px;
   height: 17.472px;
 }
@@ -33,14 +31,14 @@
   display: none;
 }
 
-.gg,
-.air,
+.google,
+.airbnb,
 .hub {
   margin-top: 2px;
 }
 
-.gg img,
-.air img,
+.google img,
+.airbnb img,
 .fb img,
 .hub img,
 .slack img {
@@ -59,13 +57,13 @@
     gap: 66px;
   }
 
-  .gg {
+  .google {
     width: 80px;
     height: 26.11px;
     margin-left: 11px;
   }
 
-  .air {
+  .airbnb {
     width: 80px;
     height: 24.96px;
     margin-right: 1px;
@@ -90,8 +88,8 @@
     margin-right: 9px;
   }
 
-  .gg,
-  .air,
+  .google,
+  .airbnbbnb,
   .fb,
   .hub,
   .slack img {
@@ -100,12 +98,10 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .banner__logo {
-    margin-left: 0px;
-  }
 
-  .gg,
-  .air,
+
+  .google,
+  .airbnbbnb,
   .hub {
     margin-top: 0px;
   }
