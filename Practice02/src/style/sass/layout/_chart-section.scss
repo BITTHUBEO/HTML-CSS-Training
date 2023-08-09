@@ -1,11 +1,14 @@
 .charts {
   @extend %flex-center;
-  background-color: var(--big-background);
   flex-direction: column;
   height: 538px;
-  margin-top: 27px;
+  margin-top: 57px;
   margin-right: 6px;
   gap: 14px;
+}
+
+.charts__container {
+  background-color: var(--big-background);
 }
 
 .chart__content {
@@ -43,7 +46,7 @@
 .chart-image {
   width: 384px;
   height: 261px;
-  margin-top: 56px;
+  margin-top: 87px;
   margin-left: 10px;
   img {
     width: 100%;

@@ -1,8 +1,13 @@
+.product__container {
+  background-color: var(--big-background);
+}
+
 .product {
   @extend %flex-center;
   flex-direction: column;
   background-color: var(--big-background);
   height: 874px;
+  margin-top: 59px;
 }
 
 .timeline {
