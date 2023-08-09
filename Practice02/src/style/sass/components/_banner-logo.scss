@@ -8,23 +8,23 @@
 
 .google {
   width: 56px;
-  height: 18.278px;
+  height: 18px;
 }
 
 .airbnb {
   width: 56px;
-  height: 17.472px;
+  height: 17px;
 }
 
 .fb {
   width: 53.17px;
-  height: 10.902px;
+  height: 11px;
   margin-right: 22px;
 }
 
-.hub {
+.hubspot {
   width: 56px;
-  height: 16.307px;
+  height: 16px;
 }
 
 .slack {
@@ -33,14 +33,14 @@
 
 .google,
 .airbnb,
-.hub {
+.hubspot {
   margin-top: 2px;
 }
 
 .google img,
 .airbnb img,
 .fb img,
-.hub img,
+.hubspot img,
 .slack img {
   cursor: pointer;
   object-fit: fill;
@@ -55,54 +55,53 @@
     display: flex;
     align-items: center;
     gap: 66px;
+    width: 105%;
   }
 
   .google {
     width: 80px;
-    height: 26.11px;
-    margin-left: 11px;
+    height: 26px;
+    margin-left: 4px;
   }
 
   .airbnb {
     width: 80px;
-    height: 24.96px;
-    margin-right: 1px;
+    height: 25px;
+    margin-right: 3px;
   }
 
   .fb {
-    width: 77.17px;
-    height: 15.82px;
+    width: 77px;
+    height: 16px;
     margin-right: 7px;
   }
 
-  .hub {
+  .hubspot {
     width: 80px;
-    height: 23.3px;
-    margin-right: 9px;
+    height: 23px;
+    margin-right: 10px;
   }
 
   .slack {
     display: block;
     width: 80px;
-    height: 20.24px;
-    margin-right: 9px;
+    height: 20px;
+    margin-right: 3px;
   }
 
   .google,
   .airbnbbnb,
   .fb,
-  .hub,
+  .hubspot,
   .slack img {
     cursor: pointer;
   }
 }
 
-@media only screen and (min-width: 992px) {
-
-
+@media only screen and (min-width: 1400px) {
   .google,
   .airbnbbnb,
-  .hub {
+  .hubspot {
     margin-top: 0px;
   }
 }
