@@ -91,7 +91,7 @@
     &__media-logo {
       flex-direction: column;
       justify-content: center;
-      width: 414px;
+      width: 100%;
       display: flex;
       margin-top: 40px;
     }
@@ -154,8 +154,8 @@
   
   .graph {
     justify-content: center;
-    width: 424px;
-    height: 308px;
+    width: 100%;
+    height: auto;
     display: flex;
     margin-top: 15px;
     margin-left: 4px;
@@ -178,7 +178,7 @@
   @media only screen and (min-width: 576px) {
     .banner {
       background-image: url(../../../../Practice02/src/assets/image/bgbanner.png);
-      background-size: 100% 16%;
+      background-size: 100% 72%;
   
       &__heading {
         font-size: 42px;
