@@ -35,7 +35,13 @@
       text-align: center;
       cursor: pointer;
       border-radius: 100px;
+
+      img {
+        width: auto;
+        height: auto;
+      }
     }
+
   
     &__get-acc a {
       background-color: #f2f9eb;
